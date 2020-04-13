@@ -1,0 +1,2624 @@
+{
+  "href": "http://10.20.1.21:8001/api/v1/clusters/indexer",
+  "Clusters": {
+    "cluster_id": 2,
+    "cluster_name": "indexer",
+    "health_report": {
+      "Host/stale_config": 4,
+      "Host/maintenance_state": 0,
+      "Host/host_state/HEALTHY": 4,
+      "Host/host_state/UNHEALTHY": 0,
+      "Host/host_state/HEARTBEAT_LOST": 0,
+      "Host/host_state/INIT": 0,
+      "Host/host_status/HEALTHY": 0,
+      "Host/host_status/UNHEALTHY": 2,
+      "Host/host_status/UNKNOWN": 0,
+      "Host/host_status/ALERT": 2
+    },
+    "provisioning_state": "INSTALLED",
+    "security_type": "NONE",
+    "total_hosts": 4,
+    "version": "HDP-3.0",
+    "credential_store_properties": {
+      "storage.persistent": "false",
+      "storage.temporary": "true"
+    },
+    "desired_configs": {
+      "activity-conf": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-env": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-log4j": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-zeppelin-env": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-zeppelin-interpreter": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-zeppelin-shiro": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "activity-zeppelin-site": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-env": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-grafana-env": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-grafana-ini": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-hbase-env": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-hbase-log4j": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-hbase-policy": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-hbase-security-site": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-hbase-site": {
+        "tag": "849a6df7-18fc-4607-a4e1-bed798b23fcc",
+        "version": 2
+      },
+      "ams-log4j": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-site": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-ssl-client": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "ams-ssl-server": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "anonymization-rules": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "cluster-env": {
+        "tag": "TOPOLOGY_RESOLVED",
+        "version": 2
+      },
+      "elastic-env": {
+        "tag": "f3d6213c-e403-4251-ad05-44f1dc316f97",
+        "version": 1
+      },
+      "elastic-jvm-options": {
+        "tag": "4ac7e1f2-ca38-4b13-bb78-b3da2c62cd13",
+        "version": 1
+      },
+      "elastic-master": {
+        "tag": "218510ec-91dc-4f7a-8d7b-760280fc8d0e",
+        "version": 1
+      },
+      "elastic-site": {
+        "tag": "400edcf4-a463-4678-b519-fba4cdd4b5b8",
+        "version": 1
+      },
+      "elastic-slave-1": {
+        "tag": "c5e6963e-1b2e-468f-82c3-8e1b98d6eb53",
+        "version": 1
+      },
+      "elastic-slave-2": {
+        "tag": "714cf92a-4171-4bb1-84af-b47630a49c20",
+        "version": 1
+      },
+      "elastic-slave-3": {
+        "tag": "6855f56c-224f-4da8-9b99-5e9664b0b743",
+        "version": 1
+      },
+      "elastic-slave-4": {
+        "tag": "75d972b8-fb7d-4dc2-97ef-2e6eb0b87a7b",
+        "version": 1
+      },
+      "elastic-sysconfig": {
+        "tag": "d6b57908-1fbb-4a94-a201-99b651e9385c",
+        "version": 1
+      },
+      "hst-agent-conf": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "hst-log4j": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "hst-server-conf": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "product-info": {
+        "tag": "INITIAL",
+        "version": 1
+      },
+      "zoo.cfg": {
+        "tag": "TOPOLOGY_RESOLVED",
+        "version": 2
+      },
+      "zookeeper-env": {
+        "tag": "TOPOLOGY_RESOLVED",
+        "version": 2
+      },
+      "zookeeper-log4j": {
+        "tag": "TOPOLOGY_RESOLVED",
+        "version": 2
+      }
+    },
+    "desired_service_config_versions": {
+      "AMBARI_METRICS": [
+        {
+          "hosts": [],
+          "compatibleWithCurrentStack": true,
+          "cluster_name": "indexer",
+          "service_name": "AMBARI_METRICS",
+          "service_config_version": 2,
+          "createtime": 1586761922252,
+          "group_id": -1,
+          "group_name": "Default",
+          "user": "admin",
+          "service_config_version_note": "",
+          "stack_id": "HDP-3.0",
+          "is_current": true,
+          "is_cluster_compatible": true
+        }
+      ],
+      "ELASTICSEARCH": [
+        {
+          "hosts": [],
+          "compatibleWithCurrentStack": true,
+          "cluster_name": "indexer",
+          "service_name": "ELASTICSEARCH",
+          "service_config_version": 1,
+          "createtime": 1586761922873,
+          "group_id": -1,
+          "group_name": "Default",
+          "user": "admin",
+          "service_config_version_note": "Initial configurations for Elasticsearch",
+          "stack_id": "HDP-3.0",
+          "is_current": true,
+          "is_cluster_compatible": true
+        }
+      ],
+      "SMARTSENSE": [
+        {
+          "hosts": [],
+          "compatibleWithCurrentStack": true,
+          "cluster_name": "indexer",
+          "service_name": "SMARTSENSE",
+          "service_config_version": 1,
+          "createtime": 1586757784341,
+          "group_id": -1,
+          "group_name": "Default",
+          "user": "admin",
+          "stack_id": "HDP-3.0",
+          "is_current": true,
+          "is_cluster_compatible": true
+        }
+      ],
+      "ZOOKEEPER": [
+        {
+          "hosts": [],
+          "compatibleWithCurrentStack": true,
+          "cluster_name": "indexer",
+          "service_name": "ZOOKEEPER",
+          "service_config_version": 2,
+          "createtime": 1586757784842,
+          "group_id": -1,
+          "group_name": "Default",
+          "user": "internal",
+          "stack_id": "HDP-3.0",
+          "is_current": true,
+          "is_cluster_compatible": true
+        }
+      ]
+    }
+  },
+  "alerts_summary": {
+    "CRITICAL": 1,
+    "MAINTENANCE": 0,
+    "OK": 26,
+    "UNKNOWN": 0,
+    "WARNING": 0
+  },
+  "alerts_summary_hosts": {
+    "CRITICAL": 1,
+    "OK": 3,
+    "UNKNOWN": 0,
+    "WARNING": 0
+  },
+  "privileges": [],
+  "config_groups": [],
+  "kerberos_descriptors": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/kerberos_descriptors/COMPOSITE",
+      "KerberosDescriptor": {
+        "cluster_name": "indexer",
+        "type": "COMPOSITE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/kerberos_descriptors/STACK",
+      "KerberosDescriptor": {
+        "cluster_name": "indexer",
+        "type": "STACK"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/kerberos_descriptors/USER",
+      "KerberosDescriptor": {
+        "cluster_name": "indexer",
+        "type": "USER"
+      }
+    }
+  ],
+  "hosts": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/hosts/p001020.antfact.com",
+      "Hosts": {
+        "cluster_name": "indexer",
+        "host_name": "p001020.antfact.com"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/hosts/p002168.antfact.com",
+      "Hosts": {
+        "cluster_name": "indexer",
+        "host_name": "p002168.antfact.com"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/hosts/p002169.antfact.com",
+      "Hosts": {
+        "cluster_name": "indexer",
+        "host_name": "p002169.antfact.com"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/hosts/p002170.antfact.com",
+      "Hosts": {
+        "cluster_name": "indexer",
+        "host_name": "p002170.antfact.com"
+      }
+    }
+  ],
+  "configurations": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-conf&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-conf",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-log4j&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-log4j",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-zeppelin-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-zeppelin-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-zeppelin-interpreter&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-zeppelin-interpreter",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-zeppelin-shiro&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-zeppelin-shiro",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=activity-zeppelin-site&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "activity-zeppelin-site",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-grafana-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-grafana-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-grafana-ini&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-grafana-ini",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-hbase-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-log4j&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-hbase-log4j",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-policy&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-hbase-policy",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-security-site&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-hbase-security-site",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-site&tag=849a6df7-18fc-4607-a4e1-bed798b23fcc",
+      "tag": "849a6df7-18fc-4607-a4e1-bed798b23fcc",
+      "type": "ams-hbase-site",
+      "version": 2,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-hbase-site&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-hbase-site",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-log4j&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-log4j",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-site&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-site",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-ssl-client&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-ssl-client",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=ams-ssl-server&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "ams-ssl-server",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=anonymization-rules&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "anonymization-rules",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=cluster-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "cluster-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=cluster-env&tag=TOPOLOGY_RESOLVED",
+      "tag": "TOPOLOGY_RESOLVED",
+      "type": "cluster-env",
+      "version": 2,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-env&tag=f3d6213c-e403-4251-ad05-44f1dc316f97",
+      "tag": "f3d6213c-e403-4251-ad05-44f1dc316f97",
+      "type": "elastic-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-jvm-options&tag=4ac7e1f2-ca38-4b13-bb78-b3da2c62cd13",
+      "tag": "4ac7e1f2-ca38-4b13-bb78-b3da2c62cd13",
+      "type": "elastic-jvm-options",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-master&tag=218510ec-91dc-4f7a-8d7b-760280fc8d0e",
+      "tag": "218510ec-91dc-4f7a-8d7b-760280fc8d0e",
+      "type": "elastic-master",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-site&tag=400edcf4-a463-4678-b519-fba4cdd4b5b8",
+      "tag": "400edcf4-a463-4678-b519-fba4cdd4b5b8",
+      "type": "elastic-site",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-slave-1&tag=c5e6963e-1b2e-468f-82c3-8e1b98d6eb53",
+      "tag": "c5e6963e-1b2e-468f-82c3-8e1b98d6eb53",
+      "type": "elastic-slave-1",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-slave-2&tag=714cf92a-4171-4bb1-84af-b47630a49c20",
+      "tag": "714cf92a-4171-4bb1-84af-b47630a49c20",
+      "type": "elastic-slave-2",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-slave-3&tag=6855f56c-224f-4da8-9b99-5e9664b0b743",
+      "tag": "6855f56c-224f-4da8-9b99-5e9664b0b743",
+      "type": "elastic-slave-3",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-slave-4&tag=75d972b8-fb7d-4dc2-97ef-2e6eb0b87a7b",
+      "tag": "75d972b8-fb7d-4dc2-97ef-2e6eb0b87a7b",
+      "type": "elastic-slave-4",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=elastic-sysconfig&tag=d6b57908-1fbb-4a94-a201-99b651e9385c",
+      "tag": "d6b57908-1fbb-4a94-a201-99b651e9385c",
+      "type": "elastic-sysconfig",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=hst-agent-conf&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "hst-agent-conf",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=hst-log4j&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "hst-log4j",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=hst-server-conf&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "hst-server-conf",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=product-info&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "product-info",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zoo.cfg&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "zoo.cfg",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zoo.cfg&tag=TOPOLOGY_RESOLVED",
+      "tag": "TOPOLOGY_RESOLVED",
+      "type": "zoo.cfg",
+      "version": 2,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zookeeper-env&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "zookeeper-env",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zookeeper-env&tag=TOPOLOGY_RESOLVED",
+      "tag": "TOPOLOGY_RESOLVED",
+      "type": "zookeeper-env",
+      "version": 2,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zookeeper-log4j&tag=INITIAL",
+      "tag": "INITIAL",
+      "type": "zookeeper-log4j",
+      "version": 1,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations?type=zookeeper-log4j&tag=TOPOLOGY_RESOLVED",
+      "tag": "TOPOLOGY_RESOLVED",
+      "type": "zookeeper-log4j",
+      "version": 2,
+      "Config": {
+        "cluster_name": "indexer",
+        "stack_id": "HDP-3.0"
+      }
+    }
+  ],
+  "services": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/services/AMBARI_METRICS",
+      "ServiceInfo": {
+        "cluster_name": "indexer",
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/services/ELASTICSEARCH",
+      "ServiceInfo": {
+        "cluster_name": "indexer",
+        "service_name": "ELASTICSEARCH"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/services/SMARTSENSE",
+      "ServiceInfo": {
+        "cluster_name": "indexer",
+        "service_name": "SMARTSENSE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/services/ZOOKEEPER",
+      "ServiceInfo": {
+        "cluster_name": "indexer",
+        "service_name": "ZOOKEEPER"
+      }
+    }
+  ],
+  "workflows": [],
+  "requests": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/requests/4",
+      "Requests": {
+        "cluster_name": "indexer",
+        "id": 4
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/requests/5",
+      "Requests": {
+        "cluster_name": "indexer",
+        "id": 5
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/requests/8",
+      "Requests": {
+        "cluster_name": "indexer",
+        "id": 8
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/requests/9",
+      "Requests": {
+        "cluster_name": "indexer",
+        "id": 9
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/requests/10",
+      "Requests": {
+        "cluster_name": "indexer",
+        "id": 10
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/18",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 19,
+        "definition_name": "ambari_server_component_version",
+        "host_name": null,
+        "id": 18,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/19",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 20,
+        "definition_name": "ambari_server_stale_alerts",
+        "host_name": null,
+        "id": 19,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/20",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 18,
+        "definition_name": "ambari_server_performance",
+        "host_name": null,
+        "id": 20,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/12",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 5,
+        "definition_name": "metrics_monitor_process_percent",
+        "host_name": null,
+        "id": 12,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/11",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 12,
+        "definition_name": "zookeeper_server_process_percent",
+        "host_name": null,
+        "id": 11,
+        "service_name": "ZOOKEEPER"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/3",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 16,
+        "definition_name": "ambari_agent_disk_usage",
+        "host_name": "p001020.antfact.com",
+        "id": 3,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/4",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 14,
+        "definition_name": "ambari_agent_ulimit",
+        "host_name": "p001020.antfact.com",
+        "id": 4,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/14",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 17,
+        "definition_name": "ambari_server_agent_heartbeat",
+        "host_name": "p001020.antfact.com",
+        "id": 14,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/15",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 15,
+        "definition_name": "ambari_agent_version_select",
+        "host_name": "p001020.antfact.com",
+        "id": 15,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/1",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 2,
+        "definition_name": "ams_metrics_collector_process",
+        "host_name": "p001020.antfact.com",
+        "id": 1,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/2",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 6,
+        "definition_name": "ams_metrics_collector_autostart",
+        "host_name": "p001020.antfact.com",
+        "id": 2,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/7",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 7,
+        "definition_name": "grafana_webui",
+        "host_name": "p001020.antfact.com",
+        "id": 7,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/8",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 1,
+        "definition_name": "ams_metrics_monitor_process",
+        "host_name": "p001020.antfact.com",
+        "id": 8,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/10",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 3,
+        "definition_name": "ams_metrics_collector_hbase_master_process",
+        "host_name": "p001020.antfact.com",
+        "id": 10,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/16",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 4,
+        "definition_name": "ams_metrics_collector_hbase_master_cpu",
+        "host_name": "p001020.antfact.com",
+        "id": 16,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/5",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 10,
+        "definition_name": "smartsense_gateway_status",
+        "host_name": "p001020.antfact.com",
+        "id": 5,
+        "service_name": "SMARTSENSE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/9",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 8,
+        "definition_name": "smartsense_server_process",
+        "host_name": "p001020.antfact.com",
+        "id": 9,
+        "service_name": "SMARTSENSE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/13",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 9,
+        "definition_name": "smartsense_bundle_failed_or_timedout",
+        "host_name": "p001020.antfact.com",
+        "id": 13,
+        "service_name": "SMARTSENSE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/17",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 11,
+        "definition_name": "smartsense_long_running_bundle",
+        "host_name": "p001020.antfact.com",
+        "id": 17,
+        "service_name": "SMARTSENSE"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/6",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 13,
+        "definition_name": "zookeeper_server_process",
+        "host_name": "p001020.antfact.com",
+        "id": 6,
+        "service_name": "ZOOKEEPER"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/52",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 17,
+        "definition_name": "ambari_server_agent_heartbeat",
+        "host_name": "p002168.antfact.com",
+        "id": 52,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/56",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 1,
+        "definition_name": "ams_metrics_monitor_process",
+        "host_name": "p002168.antfact.com",
+        "id": 56,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/57",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 51,
+        "definition_name": "elasticsearch_port",
+        "host_name": "p002168.antfact.com",
+        "id": 57,
+        "service_name": "ELASTICSEARCH"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/53",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 17,
+        "definition_name": "ambari_server_agent_heartbeat",
+        "host_name": "p002169.antfact.com",
+        "id": 53,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/54",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 1,
+        "definition_name": "ams_metrics_monitor_process",
+        "host_name": "p002169.antfact.com",
+        "id": 54,
+        "service_name": "AMBARI_METRICS"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/51",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 17,
+        "definition_name": "ambari_server_agent_heartbeat",
+        "host_name": "p002170.antfact.com",
+        "id": 51,
+        "service_name": "AMBARI"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alerts/55",
+      "Alert": {
+        "cluster_name": "indexer",
+        "definition_id": 1,
+        "definition_name": "ams_metrics_monitor_process",
+        "host_name": "p002170.antfact.com",
+        "id": 55,
+        "service_name": "AMBARI_METRICS"
+      }
+    }
+  ],
+  "stack_versions": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/stack_versions/1",
+      "ClusterStackVersions": {
+        "cluster_name": "indexer",
+        "id": 1,
+        "repository_version": 1,
+        "stack": "HDP",
+        "version": "3.0"
+      }
+    }
+  ],
+  "service_config_versions": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=AMBARI_METRICS&service_config_version=1",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ambari_metrics_user": "ams",
+            "ams_classpath_additional": "",
+            "content": "\n# Set environment variables here.\n\n# AMS instance name\nexport AMS_INSTANCE_NAME={{hostname}}\n\n# The java implementation to use. Java 1.6 required.\nexport JAVA_HOME={{java64_home}}\n\n# Collector Log directory for log4j\nexport AMS_COLLECTOR_LOG_DIR={{ams_collector_log_dir}}\n\n# Monitor Log directory for outfile\nexport AMS_MONITOR_LOG_DIR={{ams_monitor_log_dir}}\n\n# Collector pid directory\nexport AMS_COLLECTOR_PID_DIR={{ams_collector_pid_dir}}\n\n# Monitor pid directory\nexport AMS_MONITOR_PID_DIR={{ams_monitor_pid_dir}}\n\n# AMS HBase pid directory\nexport AMS_HBASE_PID_DIR={{hbase_pid_dir}}\n\n# AMS Collector heapsize\nexport AMS_COLLECTOR_HEAPSIZE={{metrics_collector_heapsize}}\n\n# HBase Tables Initialization check enabled\nexport AMS_HBASE_INIT_CHECK_ENABLED={{ams_hbase_init_check_enabled}}\n\n# AMS Collector options\nexport AMS_COLLECTOR_OPTS=\"-Djava.library.path=/usr/lib/ams-hbase/lib/hadoop-native\"\n{% if security_enabled %}\nexport AMS_COLLECTOR_OPTS=\"$AMS_COLLECTOR_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{ams_collector_jaas_config_file}}\"\n{% endif %}\n\n# AMS Collector GC options\nexport AMS_COLLECTOR_GC_OPTS=\"-XX:+UseConcMarkSweepGC -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:{{ams_collector_log_dir}}/collector-gc.log-`date +'%Y%m%d%H%M'`\"\nexport AMS_COLLECTOR_OPTS=\"$AMS_COLLECTOR_OPTS $AMS_COLLECTOR_GC_OPTS\"\n\n# Metrics collector host will be blacklisted for specified number of seconds if metric monitor failed to connect to it.\nexport AMS_FAILOVER_STRATEGY_BLACKLISTED_INTERVAL={{failover_strategy_blacklisted_interval}}\n\n# Extra Java CLASSPATH elements for Metrics Collector. Optional.\nexport COLLECTOR_ADDITIONAL_CLASSPATH={{ams_classpath_additional}}",
+            "failover_strategy_blacklisted_interval": "300",
+            "metrics_collector_heapsize": "512",
+            "metrics_collector_log_dir": "/var/log/ambari-metrics-collector",
+            "metrics_collector_pid_dir": "/var/run/ambari-metrics-collector",
+            "metrics_monitor_log_dir": "/var/log/ambari-metrics-monitor",
+            "metrics_monitor_pid_dir": "/var/run/ambari-metrics-monitor",
+            "min_ambari_metrics_hadoop_sink_version": "2.7.0.0",
+            "timeline.metrics.host.inmemory.aggregation.jvm.arguments": "-Xmx256m -Xms128m -XX:PermSize=68m",
+            "timeline.metrics.skip.disk.metrics.patterns": "true",
+            "timeline.metrics.skip.network.interfaces.patterns": "None",
+            "timeline.metrics.skip.virtual.interfaces": "false"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-ssl-server",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ssl.server.keystore.keypassword": "SECRET:ams-ssl-server:1:ssl.server.keystore.keypassword",
+            "ssl.server.keystore.location": "/etc/security/serverKeys/keystore.jks",
+            "ssl.server.keystore.password": "SECRET:ams-ssl-server:1:ssl.server.keystore.password",
+            "ssl.server.keystore.type": "jks",
+            "ssl.server.truststore.location": "/etc/security/serverKeys/all.jks",
+            "ssl.server.truststore.password": "SECRET:ams-ssl-server:1:ssl.server.truststore.password",
+            "ssl.server.truststore.reload.interval": "10000",
+            "ssl.server.truststore.type": "jks"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "dfs.client.read.shortcircuit": "true",
+            "hbase.client.scanner.caching": "10000",
+            "hbase.client.scanner.timeout.period": "300000",
+            "hbase.cluster.distributed": "false",
+            "hbase.hregion.majorcompaction": "0",
+            "hbase.hregion.max.filesize": "4294967296",
+            "hbase.hregion.memstore.block.multiplier": "4",
+            "hbase.hregion.memstore.flush.size": "134217728",
+            "hbase.hstore.blockingStoreFiles": "200",
+            "hbase.hstore.flusher.count": "2",
+            "hbase.local.dir": "${hbase.tmp.dir}/local",
+            "hbase.master.info.bindAddress": "0.0.0.0",
+            "hbase.master.info.port": "61310",
+            "hbase.master.normalizer.class": "org.apache.hadoop.hbase.master.normalizer.SimpleRegionNormalizer",
+            "hbase.master.port": "61300",
+            "hbase.master.wait.on.regionservers.mintostart": "1",
+            "hbase.normalizer.enabled": "false",
+            "hbase.normalizer.period": "600000",
+            "hbase.regionserver.global.memstore.lowerLimit": "0.3",
+            "hbase.regionserver.global.memstore.upperLimit": "0.35",
+            "hbase.regionserver.info.port": "61330",
+            "hbase.regionserver.port": "61320",
+            "hbase.regionserver.thread.compaction.large": "2",
+            "hbase.regionserver.thread.compaction.small": "3",
+            "hbase.replication": "false",
+            "hbase.rootdir": "file:///data1/var/lib/ambari-metrics-collector/hbase",
+            "hbase.rpc.timeout": "300000",
+            "hbase.snapshot.enabled": "false",
+            "hbase.superuser": "activity_explorer,activity_analyzer",
+            "hbase.tmp.dir": "/var/lib/ambari-metrics-collector/hbase-tmp",
+            "hbase.unsafe.stream.capability.enforce": "false",
+            "hbase.zookeeper.leaderport": "61388",
+            "hbase.zookeeper.peerport": "61288",
+            "hbase.zookeeper.property.clientPort": "{{zookeeper_clientPort}}",
+            "hbase.zookeeper.property.dataDir": "${hbase.tmp.dir}/zookeeper",
+            "hbase.zookeeper.property.tickTime": "6000",
+            "hbase.zookeeper.quorum": "{{zookeeper_quorum_hosts}}",
+            "hfile.block.cache.size": "0.3",
+            "phoenix.coprocessor.maxMetaDataCacheSize": "20480000",
+            "phoenix.coprocessor.maxServerCacheTimeToLiveMs": "60000",
+            "phoenix.groupby.maxCacheSize": "307200000",
+            "phoenix.mutate.batchSize": "10000",
+            "phoenix.query.keepAliveMs": "300000",
+            "phoenix.query.maxGlobalMemoryPercentage": "15",
+            "phoenix.query.rowKeyOrderSaltedTable": "true",
+            "phoenix.query.spoolThresholdBytes": "20971520",
+            "phoenix.query.timeoutMs": "300000",
+            "phoenix.sequence.saltBuckets": "2",
+            "phoenix.spool.directory": "${hbase.tmp.dir}/phoenix-spool",
+            "zookeeper.session.timeout": "120000",
+            "zookeeper.session.timeout.localHBaseCluster": "120000",
+            "zookeeper.znode.parent": "/ams-hbase-unsecure"
+          },
+          "properties_attributes": {
+            "final": {
+              "hbase.zookeeper.quorum": "true"
+            }
+          }
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams_hbase_log_maxbackupindex": "20",
+            "ams_hbase_log_maxfilesize": "256",
+            "ams_hbase_security_log_maxbackupindex": "20",
+            "ams_hbase_security_log_maxfilesize": "256",
+            "content": "\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\n\n# Define some default values that can be overridden by system properties\nhbase.root.logger=INFO,console\nhbase.security.logger=INFO,console\nhbase.log.dir=.\nhbase.log.file=hbase.log\n\n# Define the root logger to the system property \"hbase.root.logger\".\nlog4j.rootLogger=${hbase.root.logger}\n\n# Logging Threshold\nlog4j.threshold=ALL\n\n#\n# Daily Rolling File Appender\n#\nlog4j.appender.DRFA=org.apache.log4j.DailyRollingFileAppender\nlog4j.appender.DRFA.File=${hbase.log.dir}/${hbase.log.file}\n\n# Rollver at midnight\nlog4j.appender.DRFA.DatePattern=.yyyy-MM-dd\n\n# 30-day backup\n#log4j.appender.DRFA.MaxBackupIndex=30\nlog4j.appender.DRFA.layout=org.apache.log4j.PatternLayout\n\n# Pattern format: Date LogLevel LoggerName LogMessage\nlog4j.appender.DRFA.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n# Rolling File Appender properties\nhbase.log.maxfilesize={{ams_hbase_log_maxfilesize}}MB\nhbase.log.maxbackupindex={{ams_hbase_log_maxbackupindex}}\n\n# Rolling File Appender\nlog4j.appender.RFA=org.apache.log4j.RollingFileAppender\nlog4j.appender.RFA.File=${hbase.log.dir}/${hbase.log.file}\n\nlog4j.appender.RFA.MaxFileSize=${hbase.log.maxfilesize}\nlog4j.appender.RFA.MaxBackupIndex=${hbase.log.maxbackupindex}\n\nlog4j.appender.RFA.layout=org.apache.log4j.PatternLayout\nlog4j.appender.RFA.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n#\n# Security audit appender\n#\nhbase.security.log.file=SecurityAuth.audit\nhbase.security.log.maxfilesize={{ams_hbase_security_log_maxfilesize}}MB\nhbase.security.log.maxbackupindex={{ams_hbase_security_log_maxbackupindex}}\nlog4j.appender.RFAS=org.apache.log4j.RollingFileAppender\nlog4j.appender.RFAS.File=${hbase.log.dir}/${hbase.security.log.file}\nlog4j.appender.RFAS.MaxFileSize=${hbase.security.log.maxfilesize}\nlog4j.appender.RFAS.MaxBackupIndex=${hbase.security.log.maxbackupindex}\nlog4j.appender.RFAS.layout=org.apache.log4j.PatternLayout\nlog4j.appender.RFAS.layout.ConversionPattern=%d{ISO8601} %p %c: %m%n\nlog4j.category.SecurityLogger=${hbase.security.logger}\nlog4j.additivity.SecurityLogger=false\n#log4j.logger.SecurityLogger.org.apache.hadoop.hbase.security.access.AccessController=TRACE\n\n#\n# Null Appender\n#\nlog4j.appender.NullAppender=org.apache.log4j.varia.NullAppender\n\n#\n# console\n# Add \"console\" to rootlogger above if you want to use this\n#\nlog4j.appender.console=org.apache.log4j.ConsoleAppender\nlog4j.appender.console.target=System.err\nlog4j.appender.console.layout=org.apache.log4j.PatternLayout\nlog4j.appender.console.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n# Custom Logging levels\n\nlog4j.logger.org.apache.zookeeper=INFO\n#log4j.logger.org.apache.hadoop.fs.FSNamesystem=DEBUG\nlog4j.logger.org.apache.hadoop.hbase=INFO\n# Make these two classes INFO-level. Make them DEBUG to see more zk debug.\nlog4j.logger.org.apache.hadoop.hbase.zookeeper.ZKUtil=INFO\nlog4j.logger.org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher=INFO\n#log4j.logger.org.apache.hadoop.dfs=DEBUG\n# Set this class to log INFO only otherwise its OTT\n# Enable this to get detailed connection error/retry logging.\n# log4j.logger.org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation=TRACE\n\n\n# Uncomment this line to enable tracing on _every_ RPC call (this can be a lot of output)\n#log4j.logger.org.apache.hadoop.ipc.HBaseServer.trace=DEBUG\n\n# Uncomment the below if you want to remove logging of client region caching'\n# and scan of .META. messages\n# log4j.logger.org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation=INFO\n# log4j.logger.org.apache.hadoop.hbase.client.MetaScanner=INFO"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "cluster.zookeeper.property.clientPort": "{{cluster_zookeeper_clientPort}}",
+            "cluster.zookeeper.quorum": "{{cluster_zookeeper_quorum_hosts}}",
+            "failover.strategy": "round-robin",
+            "phoenix.query.maxGlobalMemoryPercentage": "25",
+            "phoenix.spool.directory": "/tmp",
+            "timeline.metrics.aggregator.checkpoint.dir": "/var/lib/ambari-metrics-collector/checkpoint",
+            "timeline.metrics.aggregators.skip.blockcache.enabled": "false",
+            "timeline.metrics.cache.commit.interval": "10",
+            "timeline.metrics.cache.enabled": "true",
+            "timeline.metrics.cache.size": "100",
+            "timeline.metrics.cluster.aggregation.sql.filters": "sdisk\\_%,boottime",
+            "timeline.metrics.cluster.aggregator.daily.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.daily.disabled": "false",
+            "timeline.metrics.cluster.aggregator.daily.interval": "86400",
+            "timeline.metrics.cluster.aggregator.daily.ttl": "63072000",
+            "timeline.metrics.cluster.aggregator.hourly.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.hourly.disabled": "false",
+            "timeline.metrics.cluster.aggregator.hourly.interval": "3600",
+            "timeline.metrics.cluster.aggregator.hourly.ttl": "31536000",
+            "timeline.metrics.cluster.aggregator.interpolation.enabled": "true",
+            "timeline.metrics.cluster.aggregator.minute.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.minute.disabled": "false",
+            "timeline.metrics.cluster.aggregator.minute.interval": "300",
+            "timeline.metrics.cluster.aggregator.minute.ttl": "2592000",
+            "timeline.metrics.cluster.aggregator.second.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.second.disabled": "false",
+            "timeline.metrics.cluster.aggregator.second.interval": "120",
+            "timeline.metrics.cluster.aggregator.second.timeslice.interval": "30",
+            "timeline.metrics.cluster.aggregator.second.ttl": "259200",
+            "timeline.metrics.daily.aggregator.minute.interval": "86400",
+            "timeline.metrics.downsampler.event.metric.patterns": "topology\\.%",
+            "timeline.metrics.downsampler.topn.function": "max",
+            "timeline.metrics.downsampler.topn.metric.patterns": "dfs.NNTopUserOpCounts.windowMs=60000.op=__%.user=%,dfs.NNTopUserOpCounts.windowMs=300000.op=__%.user=%,dfs.NNTopUserOpCounts.windowMs=1500000.op=__%.user=%",
+            "timeline.metrics.downsampler.topn.value": "10",
+            "timeline.metrics.hbase.compression.scheme": "SNAPPY",
+            "timeline.metrics.hbase.data.block.encoding": "FAST_DIFF",
+            "timeline.metrics.hbase.init.check.enabled": "true",
+            "timeline.metrics.host.aggregator.daily.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.daily.disabled": "false",
+            "timeline.metrics.host.aggregator.daily.ttl": "31536000",
+            "timeline.metrics.host.aggregator.hourly.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.hourly.disabled": "false",
+            "timeline.metrics.host.aggregator.hourly.interval": "3600",
+            "timeline.metrics.host.aggregator.hourly.ttl": "2592000",
+            "timeline.metrics.host.aggregator.minute.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.minute.disabled": "false",
+            "timeline.metrics.host.aggregator.minute.interval": "300",
+            "timeline.metrics.host.aggregator.minute.ttl": "604800",
+            "timeline.metrics.host.aggregator.ttl": "86400",
+            "timeline.metrics.host.inmemory.aggregation": "false",
+            "timeline.metrics.host.inmemory.aggregation.http.policy": "HTTP_ONLY",
+            "timeline.metrics.host.inmemory.aggregation.port": "61888",
+            "timeline.metrics.service.checkpointDelay": "60",
+            "timeline.metrics.service.cluster.aggregator.appIds": "datanode,nodemanager,hbase",
+            "timeline.metrics.service.default.result.limit": "5760",
+            "timeline.metrics.service.handler.thread.count": "20",
+            "timeline.metrics.service.http.policy": "HTTP_ONLY",
+            "timeline.metrics.service.metadata.filters": "ContainerResource",
+            "timeline.metrics.service.operation.mode": "embedded",
+            "timeline.metrics.service.resultset.fetchSize": "2000",
+            "timeline.metrics.service.rpc.address": "0.0.0.0:60200",
+            "timeline.metrics.service.use.groupBy.aggregators": "true",
+            "timeline.metrics.service.watcher.delay": "30",
+            "timeline.metrics.service.watcher.disabled": "false",
+            "timeline.metrics.service.watcher.initial.delay": "600",
+            "timeline.metrics.service.watcher.timeout": "30",
+            "timeline.metrics.service.webapp.address": "0.0.0.0:6188",
+            "timeline.metrics.sink.report.interval": "60",
+            "timeline.metrics.transient.metric.patterns": "topology\\.%",
+            "timeline.metrics.whitelisting.enabled": "false"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-ssl-client",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ssl.client.truststore.location": "/etc/security/clientKeys/all.jks",
+            "ssl.client.truststore.password": "SECRET:ams-ssl-client:1:ssl.client.truststore.password",
+            "ssl.client.truststore.type": "jks"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-policy",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "security.admin.protocol.acl": "*",
+            "security.client.protocol.acl": "*",
+            "security.masterregion.protocol.acl": "*"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-security-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams.zookeeper.keytab": "",
+            "ams.zookeeper.principal": "",
+            "hadoop.security.authentication": "",
+            "hbase.coprocessor.master.classes": "",
+            "hbase.coprocessor.region.classes": "",
+            "hbase.master.kerberos.principal": "",
+            "hbase.master.keytab.file": "",
+            "hbase.myclient.keytab": "",
+            "hbase.myclient.principal": "",
+            "hbase.regionserver.kerberos.principal": "",
+            "hbase.regionserver.keytab.file": "",
+            "hbase.security.authentication": "",
+            "hbase.security.authorization": "",
+            "hbase.zookeeper.property.authProvider.1": "",
+            "hbase.zookeeper.property.jaasLoginRenew": "",
+            "hbase.zookeeper.property.kerberos.removeHostFromPrincipal": "",
+            "hbase.zookeeper.property.kerberos.removeRealmFromPrincipal": ""
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-grafana-ini",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ca_cert": "",
+            "cert_file": "/etc/ambari-metrics-grafana/conf/ams-grafana.crt",
+            "cert_key": "/etc/ambari-metrics-grafana/conf/ams-grafana.key",
+            "content": "\n##################### Grafana Configuration Example #####################\n#\n# Everything has defaults so you only need to uncomment things you want to\n# change\n\n# possible values : production, development\n; app_mode = production\n\n#################################### Paths ####################################\n[paths]\n# Path to where grafana can store temp files, sessions, and the sqlite3 db (if that is used)\n#\n;data = /var/lib/grafana\ndata = {{ams_grafana_data_dir}}\n#\n# Directory where grafana can store logs\n#\n;logs = /var/log/grafana\nlogs = {{ams_grafana_log_dir}}\n\n\n#################################### Server ####################################\n[server]\n# Protocol (http or https)\n;protocol = http\nprotocol = {{ams_grafana_protocol}}\n# The ip address to bind to, empty will bind to all interfaces\n;http_addr =\n\n# The http port  to use\n;http_port = 3000\nhttp_port = {{ams_grafana_port}}\n\n# The public facing domain name used to access grafana from a browser\n;domain = localhost\n\n# Redirect to correct domain if host header does not match domain\n# Prevents DNS rebinding attacks\n;enforce_domain = false\n\n# The full public facing url\n;root_url = %(protocol)s://%(domain)s:%(http_port)s/\n\n# Log web requests\n;router_logging = false\n\n# the path relative working path\n;static_root_path = public\nstatic_root_path = /usr/lib/ambari-metrics-grafana/public\n\n# enable gzip\n;enable_gzip = false\n\n# https certs & key file\n;cert_file =\n;cert_key =\ncert_file = {{ams_grafana_cert_file}}\ncert_key = {{ams_grafana_cert_key}}\n\n#################################### Database ####################################\n[database]\n# Either \"mysql\", \"postgres\" or \"sqlite3\", it's your choice\n;type = sqlite3\n;host = 127.0.0.1:3306\n;name = grafana\n;user = root\n;password =\n\n# For \"postgres\" only, either \"disable\", \"require\" or \"verify-full\"\n;ssl_mode = disable\n\n# For \"sqlite3\" only, path relative to data_path setting\n;path = grafana.db\n\n#################################### Session ####################################\n[session]\n# Either \"memory\", \"file\", \"redis\", \"mysql\", \"postgres\", default is \"file\"\n;provider = file\n\n# Provider config options\n# memory: not have any config yet\n# file: session dir path, is relative to grafana data_path\n# redis: config like redis server e.g. `addr=127.0.0.1:6379,pool_size=100,db=grafana`\n# mysql: go-sql-driver/mysql dsn config string, e.g. `user:password@tcp(127.0.0.1:3306)/database_name`\n# postgres: user=a password=b host=localhost port=5432 dbname=c sslmode=disable\n;provider_config = sessions\n\n# Session cookie name\n;cookie_name = grafana_sess\n\n# If you use session in https only, default is false\n;cookie_secure = false\n\n# Session life time, default is 86400\n;session_life_time = 86400\n\n#################################### Analytics ####################################\n[analytics]\n# Server reporting, sends usage counters to stats.grafana.org every 24 hours.\n# No ip addresses are being tracked, only simple counters to track\n# running instances, dashboard and error counts. It is very helpful to us.\n# Change this option to false to disable reporting.\n;reporting_enabled = true\n\n# Google Analytics universal tracking code, only enabled if you specify an id here\n;google_analytics_ua_id =\n\n#################################### Security ####################################\n[security]\n# default admin user, created on startup\nadmin_user = {{ams_grafana_admin_user}}\n\n# default admin password, can be changed before first start of grafana,  or in profile settings\n;admin_password =\n\n# used for signing\n;secret_key = SW2YcwTIb9zpOOhoPsMm\n\n# Auto-login remember days\n;login_remember_days = 7\n;cookie_username = grafana_user\n;cookie_remember_name = grafana_remember\n\n# disable gravatar profile images\n;disable_gravatar = false\n\n# data source proxy whitelist (ip_or_domain:port seperated by spaces)\n;data_source_proxy_whitelist =\n\n#################################### Users ####################################\n[users]\n# disable user signup / registration\n;allow_sign_up = true\n\n# Allow non admin users to create organizations\n;allow_org_create = true\n\n# Set to true to automatically assign new users to the default organization (id 1)\n;auto_assign_org = true\n\n# Default role new users will be automatically assigned (if disabled above is set to true)\n;auto_assign_org_role = Viewer\n\n# Background text for the user field on the login page\n;login_hint = email or username\n\n#################################### Anonymous Auth ##########################\n[auth.anonymous]\n# enable anonymous access\nenabled = true\n\n# specify organization name that should be used for unauthenticated users\norg_name = Main Org.\n\n# specify role for unauthenticated users\n;org_role = Admin\n\n#################################### Github Auth ##########################\n[auth.github]\n;enabled = false\n;allow_sign_up = false\n;client_id = some_id\n;client_secret = some_secret\n;scopes = user:email,read:org\n;auth_url = https://github.com/login/oauth/authorize\n;token_url = https://github.com/login/oauth/access_token\n;api_url = https://api.github.com/user\n;team_ids =\n;allowed_organizations =\n\n#################################### Google Auth ##########################\n[auth.google]\n;enabled = false\n;allow_sign_up = false\n;client_id = some_client_id\n;client_secret = some_client_secret\n;scopes = https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email\n;auth_url = https://accounts.google.com/o/oauth2/auth\n;token_url = https://accounts.google.com/o/oauth2/token\n;api_url = https://www.googleapis.com/oauth2/v1/userinfo\n;allowed_domains =\n\n#################################### Auth Proxy ##########################\n[auth.proxy]\n;enabled = false\n;header_name = X-WEBAUTH-USER\n;header_property = username\n;auto_sign_up = true\n\n#################################### Basic Auth ##########################\n[auth.basic]\n;enabled = true\n\n#################################### Auth LDAP ##########################\n[auth.ldap]\n;enabled = false\n;config_file = /etc/grafana/ldap.toml\n\n#################################### SMTP / Emailing ##########################\n[smtp]\n;enabled = false\n;host = localhost:25\n;user =\n;password =\n;cert_file =\n;key_file =\n;skip_verify = false\n;from_address = admin@grafana.localhost\n\n[emails]\n;welcome_email_on_sign_up = false\n\n#################################### Logging ##########################\n[log]\n# Either \"console\", \"file\", default is \"console\"\n# Use comma to separate multiple modes, e.g. \"console, file\"\n;mode = console, file\n\n# Buffer length of channel, keep it as it is if you don't know what it is.\n;buffer_len = 10000\n\n# Either \"Trace\", \"Debug\", \"Info\", \"Warn\", \"Error\", \"Critical\", default is \"Trace\"\n;level = Info\n\n# For \"console\" mode only\n[log.console]\n;level =\n\n# For \"file\" mode only\n[log.file]\n;level =\n# This enables automated log rotate(switch of following options), default is true\n;log_rotate = true\n\n# Max line number of single file, default is 1000000\n;max_lines = 1000000\n\n# Max size shift of single file, default is 28 means 1 << 28, 256MB\n;max_lines_shift = 28\n\n# Segment log daily, default is true\n;daily_rotate = true\n\n# Expired days of log file(delete after max days), default is 7\n;max_days = 7\n\n#################################### AMPQ Event Publisher ##########################\n[event_publisher]\n;enabled = false\n;rabbitmq_url = amqp://localhost/\n;exchange = grafana_events\n\n;#################################### Dashboard JSON files ##########################\n[dashboards.json]\n;enabled = false\n;path = /var/lib/grafana/dashboards\npath = /usr/lib/ambari-metrics-grafana/public/dashboards",
+            "port": "3000",
+            "protocol": "http"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-grafana-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\n# Set environment variables here.\n\n# AMS UI Server Home Dir\nexport AMS_GRAFANA_HOME_DIR={{ams_grafana_home_dir}}\n\n# AMS UI Server Data Dir\nexport AMS_GRAFANA_DATA_DIR={{ams_grafana_data_dir}}\n\n# AMS UI Server Log Dir\nexport AMS_GRAFANA_LOG_DIR={{ams_grafana_log_dir}}\n\n# AMS UI Server PID Dir\nexport AMS_GRAFANA_PID_DIR={{ams_grafana_pid_dir}}",
+            "metrics_grafana_connect_attempts": "15",
+            "metrics_grafana_connect_retry_delay": "20",
+            "metrics_grafana_data_dir": "/var/lib/ambari-metrics-grafana",
+            "metrics_grafana_log_dir": "/var/log/ambari-metrics-grafana",
+            "metrics_grafana_password": "SECRET:ams-grafana-env:1:metrics_grafana_password",
+            "metrics_grafana_pid_dir": "/var/run/ambari-metrics-grafana",
+            "metrics_grafana_username": "admin"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\n# Set environment variables here.\n\n# The java implementation to use. Java 1.6+ required.\nexport JAVA_HOME={{java64_home}}\n\n# HBase Configuration directory\nexport HBASE_CONF_DIR=${HBASE_CONF_DIR:-{{hbase_conf_dir}}}\n\n# Extra Java CLASSPATH elements. Optional.\nadditional_cp={{hbase_classpath_additional}}\nif [  -n \"$additional_cp\" ];\nthen\n  export HBASE_CLASSPATH=${HBASE_CLASSPATH}:$additional_cp\nelse\n  export HBASE_CLASSPATH=${HBASE_CLASSPATH}\nfi\n\n# The maximum amount of heap to use for hbase shell.\nexport HBASE_SHELL_OPTS=\"-Xmx256m\"\n\n# Extra Java runtime options.\n# Below are what we set by default. May only work with SUN JVM.\n# For more on why as well as other possible settings,\n# see http://wiki.apache.org/hadoop/PerformanceTuning\nexport HBASE_OPTS=\"-XX:+UseConcMarkSweepGC -XX:ErrorFile={{hbase_log_dir}}/hs_err_pid%p.log -Djava.io.tmpdir={{hbase_tmp_dir}}\"\nexport SERVER_GC_OPTS=\"-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:{{hbase_log_dir}}/gc.log-`date +'%Y%m%d%H%M'`\"\n# Uncomment below to enable java garbage collection logging.\n# export HBASE_OPTS=\"$HBASE_OPTS -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:$HBASE_HOME/logs/gc-hbase.log\"\n\n# Uncomment and adjust to enable JMX exporting\n# See jmxremote.password and jmxremote.access in $JRE_HOME/lib/management to configure remote password access.\n# More details at: http://java.sun.com/javase/6/docs/technotes/guides/management/agent.html\n#\n# export HBASE_JMX_BASE=\"-Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false\"\n\n{% if java_version < 8 %}\nexport HBASE_MASTER_OPTS=\" -XX:PermSize=64m -XX:MaxPermSize={{hbase_master_maxperm_size}} -Xms{{hbase_heapsize}} -Xmx{{hbase_heapsize}} -Xmn{{hbase_master_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly\"\nexport HBASE_REGIONSERVER_OPTS=\"-XX:MaxPermSize=128m -Xmn{{regionserver_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly -Xms{{regionserver_heapsize}} -Xmx{{regionserver_heapsize}}\"\n{% else %}\nexport HBASE_MASTER_OPTS=\" -Xms{{hbase_heapsize}} -Xmx{{hbase_heapsize}} -Xmn{{hbase_master_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly\"\nexport HBASE_REGIONSERVER_OPTS=\" -Xmn{{regionserver_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly -Xms{{regionserver_heapsize}} -Xmx{{regionserver_heapsize}}\"\n{% endif %}\n\n\n# export HBASE_THRIFT_OPTS=\"$HBASE_JMX_BASE -Dcom.sun.management.jmxremote.port=10103\"\n# export HBASE_ZOOKEEPER_OPTS=\"$HBASE_JMX_BASE -Dcom.sun.management.jmxremote.port=10104\"\n\n# File naming hosts on which HRegionServers will run. $HBASE_HOME/conf/regionservers by default.\nexport HBASE_REGIONSERVERS=${HBASE_CONF_DIR}/regionservers\n\n# Extra ssh options. Empty by default.\n# export HBASE_SSH_OPTS=\"-o ConnectTimeout=1 -o SendEnv=HBASE_CONF_DIR\"\n\n# Where log files are stored. $HBASE_HOME/logs by default.\nexport HBASE_LOG_DIR={{hbase_log_dir}}\n\n# A string representing this instance of hbase. $USER by default.\n# export HBASE_IDENT_STRING=$USER\n\n# The scheduling priority for daemon processes. See 'man nice'.\n# export HBASE_NICENESS=10\n\n# The directory where pid files are stored. /tmp by default.\nexport HBASE_PID_DIR={{hbase_pid_dir}}\n\n# Seconds to sleep between slave commands. Unset by default. This\n# can be useful in large clusters, where, e.g., slave rsyncs can\n# otherwise arrive faster than the master can service them.\n# export HBASE_SLAVE_SLEEP=0.1\n\n# Tell HBase whether it should manage it's own instance of Zookeeper or not.\nexport HBASE_MANAGES_ZK=false\n\n{% if security_enabled %}\nexport HBASE_OPTS=\"$HBASE_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{client_jaas_config_file}}\"\nexport HBASE_MASTER_OPTS=\"$HBASE_MASTER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{master_jaas_config_file}} -Djavax.security.auth.useSubjectCredsOnly=false\"\nexport HBASE_REGIONSERVER_OPTS=\"$HBASE_REGIONSERVER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{regionserver_jaas_config_file}} -Djavax.security.auth.useSubjectCredsOnly=false\"\nexport HBASE_ZOOKEEPER_OPTS=\"$HBASE_ZOOKEEPER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{ams_zookeeper_jaas_config_file}}\"\n{% endif %}\n\n# use embedded native libs\n_HADOOP_NATIVE_LIB=\"/usr/lib/ams-hbase/lib/hadoop-native/\"\nexport HBASE_OPTS=\"$HBASE_OPTS -Djava.library.path=${_HADOOP_NATIVE_LIB}\"\n\n# Unset HADOOP_HOME to avoid importing HADOOP installed cluster related configs like: /usr/hdp/2.2.0.0-2041/hadoop/conf/\nexport HADOOP_HOME={{ams_hbase_home_dir}}\n\n# Explicitly Setting HBASE_HOME for AMS HBase so that there is no conflict\nexport HBASE_HOME={{ams_hbase_home_dir}}",
+            "hbase_classpath_additional": "",
+            "hbase_log_dir": "/var/log/ambari-metrics-collector",
+            "hbase_master_heapsize": "512",
+            "hbase_master_maxperm_size": "128",
+            "hbase_master_xmn_size": "128",
+            "hbase_pid_dir": "/var/run/ambari-metrics-collector/",
+            "hbase_regionserver_heapsize": "512",
+            "hbase_regionserver_shutdown_timeout": "30",
+            "hbase_regionserver_xmn_ratio": "0.2",
+            "max_open_files_limit": "32768",
+            "regionserver_xmn_size": "128"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams_log_max_backup_size": "80",
+            "ams_log_number_of_backup_files": "60",
+            "content": "\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n# Define some default values that can be overridden by system properties\nams.log.dir=.\nams.log.file=ambari-metrics-collector.log\n\n# Root logger option\nlog4j.rootLogger=INFO,file\n\n# Direct log messages to a log file\nlog4j.appender.file=org.apache.log4j.RollingFileAppender\nlog4j.appender.file.File=${ams.log.dir}/${ams.log.file}\nlog4j.appender.file.MaxFileSize={{ams_log_max_backup_size}}MB\nlog4j.appender.file.MaxBackupIndex={{ams_log_number_of_backup_files}}\nlog4j.appender.file.layout=org.apache.log4j.PatternLayout\nlog4j.appender.file.layout.ConversionPattern=%d{ISO8601} %p %c: %m%n"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586757783644,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": false,
+      "service_config_version": 1,
+      "service_config_version_note": null,
+      "service_name": "AMBARI_METRICS",
+      "stack_id": "HDP-3.0",
+      "user": "admin"
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=AMBARI_METRICS&service_config_version=2",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ambari_metrics_user": "ams",
+            "ams_classpath_additional": "",
+            "content": "\n# Set environment variables here.\n\n# AMS instance name\nexport AMS_INSTANCE_NAME={{hostname}}\n\n# The java implementation to use. Java 1.6 required.\nexport JAVA_HOME={{java64_home}}\n\n# Collector Log directory for log4j\nexport AMS_COLLECTOR_LOG_DIR={{ams_collector_log_dir}}\n\n# Monitor Log directory for outfile\nexport AMS_MONITOR_LOG_DIR={{ams_monitor_log_dir}}\n\n# Collector pid directory\nexport AMS_COLLECTOR_PID_DIR={{ams_collector_pid_dir}}\n\n# Monitor pid directory\nexport AMS_MONITOR_PID_DIR={{ams_monitor_pid_dir}}\n\n# AMS HBase pid directory\nexport AMS_HBASE_PID_DIR={{hbase_pid_dir}}\n\n# AMS Collector heapsize\nexport AMS_COLLECTOR_HEAPSIZE={{metrics_collector_heapsize}}\n\n# HBase Tables Initialization check enabled\nexport AMS_HBASE_INIT_CHECK_ENABLED={{ams_hbase_init_check_enabled}}\n\n# AMS Collector options\nexport AMS_COLLECTOR_OPTS=\"-Djava.library.path=/usr/lib/ams-hbase/lib/hadoop-native\"\n{% if security_enabled %}\nexport AMS_COLLECTOR_OPTS=\"$AMS_COLLECTOR_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{ams_collector_jaas_config_file}}\"\n{% endif %}\n\n# AMS Collector GC options\nexport AMS_COLLECTOR_GC_OPTS=\"-XX:+UseConcMarkSweepGC -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:{{ams_collector_log_dir}}/collector-gc.log-`date +'%Y%m%d%H%M'`\"\nexport AMS_COLLECTOR_OPTS=\"$AMS_COLLECTOR_OPTS $AMS_COLLECTOR_GC_OPTS\"\n\n# Metrics collector host will be blacklisted for specified number of seconds if metric monitor failed to connect to it.\nexport AMS_FAILOVER_STRATEGY_BLACKLISTED_INTERVAL={{failover_strategy_blacklisted_interval}}\n\n# Extra Java CLASSPATH elements for Metrics Collector. Optional.\nexport COLLECTOR_ADDITIONAL_CLASSPATH={{ams_classpath_additional}}",
+            "failover_strategy_blacklisted_interval": "300",
+            "metrics_collector_heapsize": "512",
+            "metrics_collector_log_dir": "/var/log/ambari-metrics-collector",
+            "metrics_collector_pid_dir": "/var/run/ambari-metrics-collector",
+            "metrics_monitor_log_dir": "/var/log/ambari-metrics-monitor",
+            "metrics_monitor_pid_dir": "/var/run/ambari-metrics-monitor",
+            "min_ambari_metrics_hadoop_sink_version": "2.7.0.0",
+            "timeline.metrics.host.inmemory.aggregation.jvm.arguments": "-Xmx256m -Xms128m -XX:PermSize=68m",
+            "timeline.metrics.skip.disk.metrics.patterns": "true",
+            "timeline.metrics.skip.network.interfaces.patterns": "None",
+            "timeline.metrics.skip.virtual.interfaces": "false"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-grafana-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\n# Set environment variables here.\n\n# AMS UI Server Home Dir\nexport AMS_GRAFANA_HOME_DIR={{ams_grafana_home_dir}}\n\n# AMS UI Server Data Dir\nexport AMS_GRAFANA_DATA_DIR={{ams_grafana_data_dir}}\n\n# AMS UI Server Log Dir\nexport AMS_GRAFANA_LOG_DIR={{ams_grafana_log_dir}}\n\n# AMS UI Server PID Dir\nexport AMS_GRAFANA_PID_DIR={{ams_grafana_pid_dir}}",
+            "metrics_grafana_connect_attempts": "15",
+            "metrics_grafana_connect_retry_delay": "20",
+            "metrics_grafana_data_dir": "/var/lib/ambari-metrics-grafana",
+            "metrics_grafana_log_dir": "/var/log/ambari-metrics-grafana",
+            "metrics_grafana_password": "SECRET:ams-grafana-env:1:metrics_grafana_password",
+            "metrics_grafana_pid_dir": "/var/run/ambari-metrics-grafana",
+            "metrics_grafana_username": "admin"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-grafana-ini",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ca_cert": "",
+            "cert_file": "/etc/ambari-metrics-grafana/conf/ams-grafana.crt",
+            "cert_key": "/etc/ambari-metrics-grafana/conf/ams-grafana.key",
+            "content": "\n##################### Grafana Configuration Example #####################\n#\n# Everything has defaults so you only need to uncomment things you want to\n# change\n\n# possible values : production, development\n; app_mode = production\n\n#################################### Paths ####################################\n[paths]\n# Path to where grafana can store temp files, sessions, and the sqlite3 db (if that is used)\n#\n;data = /var/lib/grafana\ndata = {{ams_grafana_data_dir}}\n#\n# Directory where grafana can store logs\n#\n;logs = /var/log/grafana\nlogs = {{ams_grafana_log_dir}}\n\n\n#################################### Server ####################################\n[server]\n# Protocol (http or https)\n;protocol = http\nprotocol = {{ams_grafana_protocol}}\n# The ip address to bind to, empty will bind to all interfaces\n;http_addr =\n\n# The http port  to use\n;http_port = 3000\nhttp_port = {{ams_grafana_port}}\n\n# The public facing domain name used to access grafana from a browser\n;domain = localhost\n\n# Redirect to correct domain if host header does not match domain\n# Prevents DNS rebinding attacks\n;enforce_domain = false\n\n# The full public facing url\n;root_url = %(protocol)s://%(domain)s:%(http_port)s/\n\n# Log web requests\n;router_logging = false\n\n# the path relative working path\n;static_root_path = public\nstatic_root_path = /usr/lib/ambari-metrics-grafana/public\n\n# enable gzip\n;enable_gzip = false\n\n# https certs & key file\n;cert_file =\n;cert_key =\ncert_file = {{ams_grafana_cert_file}}\ncert_key = {{ams_grafana_cert_key}}\n\n#################################### Database ####################################\n[database]\n# Either \"mysql\", \"postgres\" or \"sqlite3\", it's your choice\n;type = sqlite3\n;host = 127.0.0.1:3306\n;name = grafana\n;user = root\n;password =\n\n# For \"postgres\" only, either \"disable\", \"require\" or \"verify-full\"\n;ssl_mode = disable\n\n# For \"sqlite3\" only, path relative to data_path setting\n;path = grafana.db\n\n#################################### Session ####################################\n[session]\n# Either \"memory\", \"file\", \"redis\", \"mysql\", \"postgres\", default is \"file\"\n;provider = file\n\n# Provider config options\n# memory: not have any config yet\n# file: session dir path, is relative to grafana data_path\n# redis: config like redis server e.g. `addr=127.0.0.1:6379,pool_size=100,db=grafana`\n# mysql: go-sql-driver/mysql dsn config string, e.g. `user:password@tcp(127.0.0.1:3306)/database_name`\n# postgres: user=a password=b host=localhost port=5432 dbname=c sslmode=disable\n;provider_config = sessions\n\n# Session cookie name\n;cookie_name = grafana_sess\n\n# If you use session in https only, default is false\n;cookie_secure = false\n\n# Session life time, default is 86400\n;session_life_time = 86400\n\n#################################### Analytics ####################################\n[analytics]\n# Server reporting, sends usage counters to stats.grafana.org every 24 hours.\n# No ip addresses are being tracked, only simple counters to track\n# running instances, dashboard and error counts. It is very helpful to us.\n# Change this option to false to disable reporting.\n;reporting_enabled = true\n\n# Google Analytics universal tracking code, only enabled if you specify an id here\n;google_analytics_ua_id =\n\n#################################### Security ####################################\n[security]\n# default admin user, created on startup\nadmin_user = {{ams_grafana_admin_user}}\n\n# default admin password, can be changed before first start of grafana,  or in profile settings\n;admin_password =\n\n# used for signing\n;secret_key = SW2YcwTIb9zpOOhoPsMm\n\n# Auto-login remember days\n;login_remember_days = 7\n;cookie_username = grafana_user\n;cookie_remember_name = grafana_remember\n\n# disable gravatar profile images\n;disable_gravatar = false\n\n# data source proxy whitelist (ip_or_domain:port seperated by spaces)\n;data_source_proxy_whitelist =\n\n#################################### Users ####################################\n[users]\n# disable user signup / registration\n;allow_sign_up = true\n\n# Allow non admin users to create organizations\n;allow_org_create = true\n\n# Set to true to automatically assign new users to the default organization (id 1)\n;auto_assign_org = true\n\n# Default role new users will be automatically assigned (if disabled above is set to true)\n;auto_assign_org_role = Viewer\n\n# Background text for the user field on the login page\n;login_hint = email or username\n\n#################################### Anonymous Auth ##########################\n[auth.anonymous]\n# enable anonymous access\nenabled = true\n\n# specify organization name that should be used for unauthenticated users\norg_name = Main Org.\n\n# specify role for unauthenticated users\n;org_role = Admin\n\n#################################### Github Auth ##########################\n[auth.github]\n;enabled = false\n;allow_sign_up = false\n;client_id = some_id\n;client_secret = some_secret\n;scopes = user:email,read:org\n;auth_url = https://github.com/login/oauth/authorize\n;token_url = https://github.com/login/oauth/access_token\n;api_url = https://api.github.com/user\n;team_ids =\n;allowed_organizations =\n\n#################################### Google Auth ##########################\n[auth.google]\n;enabled = false\n;allow_sign_up = false\n;client_id = some_client_id\n;client_secret = some_client_secret\n;scopes = https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email\n;auth_url = https://accounts.google.com/o/oauth2/auth\n;token_url = https://accounts.google.com/o/oauth2/token\n;api_url = https://www.googleapis.com/oauth2/v1/userinfo\n;allowed_domains =\n\n#################################### Auth Proxy ##########################\n[auth.proxy]\n;enabled = false\n;header_name = X-WEBAUTH-USER\n;header_property = username\n;auto_sign_up = true\n\n#################################### Basic Auth ##########################\n[auth.basic]\n;enabled = true\n\n#################################### Auth LDAP ##########################\n[auth.ldap]\n;enabled = false\n;config_file = /etc/grafana/ldap.toml\n\n#################################### SMTP / Emailing ##########################\n[smtp]\n;enabled = false\n;host = localhost:25\n;user =\n;password =\n;cert_file =\n;key_file =\n;skip_verify = false\n;from_address = admin@grafana.localhost\n\n[emails]\n;welcome_email_on_sign_up = false\n\n#################################### Logging ##########################\n[log]\n# Either \"console\", \"file\", default is \"console\"\n# Use comma to separate multiple modes, e.g. \"console, file\"\n;mode = console, file\n\n# Buffer length of channel, keep it as it is if you don't know what it is.\n;buffer_len = 10000\n\n# Either \"Trace\", \"Debug\", \"Info\", \"Warn\", \"Error\", \"Critical\", default is \"Trace\"\n;level = Info\n\n# For \"console\" mode only\n[log.console]\n;level =\n\n# For \"file\" mode only\n[log.file]\n;level =\n# This enables automated log rotate(switch of following options), default is true\n;log_rotate = true\n\n# Max line number of single file, default is 1000000\n;max_lines = 1000000\n\n# Max size shift of single file, default is 28 means 1 << 28, 256MB\n;max_lines_shift = 28\n\n# Segment log daily, default is true\n;daily_rotate = true\n\n# Expired days of log file(delete after max days), default is 7\n;max_days = 7\n\n#################################### AMPQ Event Publisher ##########################\n[event_publisher]\n;enabled = false\n;rabbitmq_url = amqp://localhost/\n;exchange = grafana_events\n\n;#################################### Dashboard JSON files ##########################\n[dashboards.json]\n;enabled = false\n;path = /var/lib/grafana/dashboards\npath = /usr/lib/ambari-metrics-grafana/public/dashboards",
+            "port": "3000",
+            "protocol": "http"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\n# Set environment variables here.\n\n# The java implementation to use. Java 1.6+ required.\nexport JAVA_HOME={{java64_home}}\n\n# HBase Configuration directory\nexport HBASE_CONF_DIR=${HBASE_CONF_DIR:-{{hbase_conf_dir}}}\n\n# Extra Java CLASSPATH elements. Optional.\nadditional_cp={{hbase_classpath_additional}}\nif [  -n \"$additional_cp\" ];\nthen\n  export HBASE_CLASSPATH=${HBASE_CLASSPATH}:$additional_cp\nelse\n  export HBASE_CLASSPATH=${HBASE_CLASSPATH}\nfi\n\n# The maximum amount of heap to use for hbase shell.\nexport HBASE_SHELL_OPTS=\"-Xmx256m\"\n\n# Extra Java runtime options.\n# Below are what we set by default. May only work with SUN JVM.\n# For more on why as well as other possible settings,\n# see http://wiki.apache.org/hadoop/PerformanceTuning\nexport HBASE_OPTS=\"-XX:+UseConcMarkSweepGC -XX:ErrorFile={{hbase_log_dir}}/hs_err_pid%p.log -Djava.io.tmpdir={{hbase_tmp_dir}}\"\nexport SERVER_GC_OPTS=\"-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:{{hbase_log_dir}}/gc.log-`date +'%Y%m%d%H%M'`\"\n# Uncomment below to enable java garbage collection logging.\n# export HBASE_OPTS=\"$HBASE_OPTS -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:$HBASE_HOME/logs/gc-hbase.log\"\n\n# Uncomment and adjust to enable JMX exporting\n# See jmxremote.password and jmxremote.access in $JRE_HOME/lib/management to configure remote password access.\n# More details at: http://java.sun.com/javase/6/docs/technotes/guides/management/agent.html\n#\n# export HBASE_JMX_BASE=\"-Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false\"\n\n{% if java_version < 8 %}\nexport HBASE_MASTER_OPTS=\" -XX:PermSize=64m -XX:MaxPermSize={{hbase_master_maxperm_size}} -Xms{{hbase_heapsize}} -Xmx{{hbase_heapsize}} -Xmn{{hbase_master_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly\"\nexport HBASE_REGIONSERVER_OPTS=\"-XX:MaxPermSize=128m -Xmn{{regionserver_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly -Xms{{regionserver_heapsize}} -Xmx{{regionserver_heapsize}}\"\n{% else %}\nexport HBASE_MASTER_OPTS=\" -Xms{{hbase_heapsize}} -Xmx{{hbase_heapsize}} -Xmn{{hbase_master_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly\"\nexport HBASE_REGIONSERVER_OPTS=\" -Xmn{{regionserver_xmn_size}} -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly -Xms{{regionserver_heapsize}} -Xmx{{regionserver_heapsize}}\"\n{% endif %}\n\n\n# export HBASE_THRIFT_OPTS=\"$HBASE_JMX_BASE -Dcom.sun.management.jmxremote.port=10103\"\n# export HBASE_ZOOKEEPER_OPTS=\"$HBASE_JMX_BASE -Dcom.sun.management.jmxremote.port=10104\"\n\n# File naming hosts on which HRegionServers will run. $HBASE_HOME/conf/regionservers by default.\nexport HBASE_REGIONSERVERS=${HBASE_CONF_DIR}/regionservers\n\n# Extra ssh options. Empty by default.\n# export HBASE_SSH_OPTS=\"-o ConnectTimeout=1 -o SendEnv=HBASE_CONF_DIR\"\n\n# Where log files are stored. $HBASE_HOME/logs by default.\nexport HBASE_LOG_DIR={{hbase_log_dir}}\n\n# A string representing this instance of hbase. $USER by default.\n# export HBASE_IDENT_STRING=$USER\n\n# The scheduling priority for daemon processes. See 'man nice'.\n# export HBASE_NICENESS=10\n\n# The directory where pid files are stored. /tmp by default.\nexport HBASE_PID_DIR={{hbase_pid_dir}}\n\n# Seconds to sleep between slave commands. Unset by default. This\n# can be useful in large clusters, where, e.g., slave rsyncs can\n# otherwise arrive faster than the master can service them.\n# export HBASE_SLAVE_SLEEP=0.1\n\n# Tell HBase whether it should manage it's own instance of Zookeeper or not.\nexport HBASE_MANAGES_ZK=false\n\n{% if security_enabled %}\nexport HBASE_OPTS=\"$HBASE_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{client_jaas_config_file}}\"\nexport HBASE_MASTER_OPTS=\"$HBASE_MASTER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{master_jaas_config_file}} -Djavax.security.auth.useSubjectCredsOnly=false\"\nexport HBASE_REGIONSERVER_OPTS=\"$HBASE_REGIONSERVER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{regionserver_jaas_config_file}} -Djavax.security.auth.useSubjectCredsOnly=false\"\nexport HBASE_ZOOKEEPER_OPTS=\"$HBASE_ZOOKEEPER_OPTS -Dzookeeper.sasl.client.username={{zk_principal_user}} -Djava.security.auth.login.config={{ams_zookeeper_jaas_config_file}}\"\n{% endif %}\n\n# use embedded native libs\n_HADOOP_NATIVE_LIB=\"/usr/lib/ams-hbase/lib/hadoop-native/\"\nexport HBASE_OPTS=\"$HBASE_OPTS -Djava.library.path=${_HADOOP_NATIVE_LIB}\"\n\n# Unset HADOOP_HOME to avoid importing HADOOP installed cluster related configs like: /usr/hdp/2.2.0.0-2041/hadoop/conf/\nexport HADOOP_HOME={{ams_hbase_home_dir}}\n\n# Explicitly Setting HBASE_HOME for AMS HBase so that there is no conflict\nexport HBASE_HOME={{ams_hbase_home_dir}}",
+            "hbase_classpath_additional": "",
+            "hbase_log_dir": "/var/log/ambari-metrics-collector",
+            "hbase_master_heapsize": "512",
+            "hbase_master_maxperm_size": "128",
+            "hbase_master_xmn_size": "128",
+            "hbase_pid_dir": "/var/run/ambari-metrics-collector/",
+            "hbase_regionserver_heapsize": "512",
+            "hbase_regionserver_shutdown_timeout": "30",
+            "hbase_regionserver_xmn_ratio": "0.2",
+            "max_open_files_limit": "32768",
+            "regionserver_xmn_size": "128"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams_hbase_log_maxbackupindex": "20",
+            "ams_hbase_log_maxfilesize": "256",
+            "ams_hbase_security_log_maxbackupindex": "20",
+            "ams_hbase_security_log_maxfilesize": "256",
+            "content": "\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\n\n# Define some default values that can be overridden by system properties\nhbase.root.logger=INFO,console\nhbase.security.logger=INFO,console\nhbase.log.dir=.\nhbase.log.file=hbase.log\n\n# Define the root logger to the system property \"hbase.root.logger\".\nlog4j.rootLogger=${hbase.root.logger}\n\n# Logging Threshold\nlog4j.threshold=ALL\n\n#\n# Daily Rolling File Appender\n#\nlog4j.appender.DRFA=org.apache.log4j.DailyRollingFileAppender\nlog4j.appender.DRFA.File=${hbase.log.dir}/${hbase.log.file}\n\n# Rollver at midnight\nlog4j.appender.DRFA.DatePattern=.yyyy-MM-dd\n\n# 30-day backup\n#log4j.appender.DRFA.MaxBackupIndex=30\nlog4j.appender.DRFA.layout=org.apache.log4j.PatternLayout\n\n# Pattern format: Date LogLevel LoggerName LogMessage\nlog4j.appender.DRFA.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n# Rolling File Appender properties\nhbase.log.maxfilesize={{ams_hbase_log_maxfilesize}}MB\nhbase.log.maxbackupindex={{ams_hbase_log_maxbackupindex}}\n\n# Rolling File Appender\nlog4j.appender.RFA=org.apache.log4j.RollingFileAppender\nlog4j.appender.RFA.File=${hbase.log.dir}/${hbase.log.file}\n\nlog4j.appender.RFA.MaxFileSize=${hbase.log.maxfilesize}\nlog4j.appender.RFA.MaxBackupIndex=${hbase.log.maxbackupindex}\n\nlog4j.appender.RFA.layout=org.apache.log4j.PatternLayout\nlog4j.appender.RFA.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n#\n# Security audit appender\n#\nhbase.security.log.file=SecurityAuth.audit\nhbase.security.log.maxfilesize={{ams_hbase_security_log_maxfilesize}}MB\nhbase.security.log.maxbackupindex={{ams_hbase_security_log_maxbackupindex}}\nlog4j.appender.RFAS=org.apache.log4j.RollingFileAppender\nlog4j.appender.RFAS.File=${hbase.log.dir}/${hbase.security.log.file}\nlog4j.appender.RFAS.MaxFileSize=${hbase.security.log.maxfilesize}\nlog4j.appender.RFAS.MaxBackupIndex=${hbase.security.log.maxbackupindex}\nlog4j.appender.RFAS.layout=org.apache.log4j.PatternLayout\nlog4j.appender.RFAS.layout.ConversionPattern=%d{ISO8601} %p %c: %m%n\nlog4j.category.SecurityLogger=${hbase.security.logger}\nlog4j.additivity.SecurityLogger=false\n#log4j.logger.SecurityLogger.org.apache.hadoop.hbase.security.access.AccessController=TRACE\n\n#\n# Null Appender\n#\nlog4j.appender.NullAppender=org.apache.log4j.varia.NullAppender\n\n#\n# console\n# Add \"console\" to rootlogger above if you want to use this\n#\nlog4j.appender.console=org.apache.log4j.ConsoleAppender\nlog4j.appender.console.target=System.err\nlog4j.appender.console.layout=org.apache.log4j.PatternLayout\nlog4j.appender.console.layout.ConversionPattern=%d{ISO8601} %-5p [%t] %c{2}: %m%n\n\n# Custom Logging levels\n\nlog4j.logger.org.apache.zookeeper=INFO\n#log4j.logger.org.apache.hadoop.fs.FSNamesystem=DEBUG\nlog4j.logger.org.apache.hadoop.hbase=INFO\n# Make these two classes INFO-level. Make them DEBUG to see more zk debug.\nlog4j.logger.org.apache.hadoop.hbase.zookeeper.ZKUtil=INFO\nlog4j.logger.org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher=INFO\n#log4j.logger.org.apache.hadoop.dfs=DEBUG\n# Set this class to log INFO only otherwise its OTT\n# Enable this to get detailed connection error/retry logging.\n# log4j.logger.org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation=TRACE\n\n\n# Uncomment this line to enable tracing on _every_ RPC call (this can be a lot of output)\n#log4j.logger.org.apache.hadoop.ipc.HBaseServer.trace=DEBUG\n\n# Uncomment the below if you want to remove logging of client region caching'\n# and scan of .META. messages\n# log4j.logger.org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation=INFO\n# log4j.logger.org.apache.hadoop.hbase.client.MetaScanner=INFO"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-policy",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "security.admin.protocol.acl": "*",
+            "security.client.protocol.acl": "*",
+            "security.masterregion.protocol.acl": "*"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-security-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams.zookeeper.keytab": "",
+            "ams.zookeeper.principal": "",
+            "hadoop.security.authentication": "",
+            "hbase.coprocessor.master.classes": "",
+            "hbase.coprocessor.region.classes": "",
+            "hbase.master.kerberos.principal": "",
+            "hbase.master.keytab.file": "",
+            "hbase.myclient.keytab": "",
+            "hbase.myclient.principal": "",
+            "hbase.regionserver.kerberos.principal": "",
+            "hbase.regionserver.keytab.file": "",
+            "hbase.security.authentication": "",
+            "hbase.security.authorization": "",
+            "hbase.zookeeper.property.authProvider.1": "",
+            "hbase.zookeeper.property.jaasLoginRenew": "",
+            "hbase.zookeeper.property.kerberos.removeHostFromPrincipal": "",
+            "hbase.zookeeper.property.kerberos.removeRealmFromPrincipal": ""
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-hbase-site",
+          "tag": "849a6df7-18fc-4607-a4e1-bed798b23fcc",
+          "version": 2,
+          "properties": {
+            "dfs.client.read.shortcircuit": "true",
+            "hbase.client.scanner.caching": "10000",
+            "hbase.client.scanner.timeout.period": "300000",
+            "hbase.cluster.distributed": "false",
+            "hbase.hregion.majorcompaction": "0",
+            "hbase.hregion.max.filesize": "4294967296",
+            "hbase.hregion.memstore.block.multiplier": "4",
+            "hbase.hregion.memstore.flush.size": "134217728",
+            "hbase.hstore.blockingStoreFiles": "200",
+            "hbase.hstore.flusher.count": "2",
+            "hbase.local.dir": "${hbase.tmp.dir}/local",
+            "hbase.master.info.bindAddress": "0.0.0.0",
+            "hbase.master.info.port": "61310",
+            "hbase.master.normalizer.class": "org.apache.hadoop.hbase.master.normalizer.SimpleRegionNormalizer",
+            "hbase.master.port": "61300",
+            "hbase.master.wait.on.regionservers.mintostart": "1",
+            "hbase.normalizer.enabled": "false",
+            "hbase.normalizer.period": "600000",
+            "hbase.regionserver.global.memstore.lowerLimit": "0.3",
+            "hbase.regionserver.global.memstore.upperLimit": "0.35",
+            "hbase.regionserver.info.port": "61330",
+            "hbase.regionserver.port": "61320",
+            "hbase.regionserver.thread.compaction.large": "2",
+            "hbase.regionserver.thread.compaction.small": "3",
+            "hbase.replication": "false",
+            "hbase.rootdir": "file:///data1/data1/var/lib/ambari-metrics-collector/hbase",
+            "hbase.rpc.timeout": "300000",
+            "hbase.snapshot.enabled": "false",
+            "hbase.superuser": "activity_explorer,activity_analyzer",
+            "hbase.tmp.dir": "/var/lib/ambari-metrics-collector/hbase-tmp",
+            "hbase.unsafe.stream.capability.enforce": "false",
+            "hbase.zookeeper.leaderport": "61388",
+            "hbase.zookeeper.peerport": "61288",
+            "hbase.zookeeper.property.clientPort": "{{zookeeper_clientPort}}",
+            "hbase.zookeeper.property.dataDir": "${hbase.tmp.dir}/zookeeper",
+            "hbase.zookeeper.property.tickTime": "6000",
+            "hbase.zookeeper.quorum": "{{zookeeper_quorum_hosts}}",
+            "hfile.block.cache.size": "0.3",
+            "phoenix.coprocessor.maxMetaDataCacheSize": "20480000",
+            "phoenix.coprocessor.maxServerCacheTimeToLiveMs": "60000",
+            "phoenix.groupby.maxCacheSize": "307200000",
+            "phoenix.mutate.batchSize": "10000",
+            "phoenix.query.keepAliveMs": "300000",
+            "phoenix.query.maxGlobalMemoryPercentage": "15",
+            "phoenix.query.rowKeyOrderSaltedTable": "true",
+            "phoenix.query.spoolThresholdBytes": "20971520",
+            "phoenix.query.timeoutMs": "300000",
+            "phoenix.sequence.saltBuckets": "2",
+            "phoenix.spool.directory": "${hbase.tmp.dir}/phoenix-spool",
+            "zookeeper.session.timeout": "120000",
+            "zookeeper.session.timeout.localHBaseCluster": "120000",
+            "zookeeper.znode.parent": "/ams-hbase-unsecure"
+          },
+          "properties_attributes": {
+            "final": {
+              "hbase.zookeeper.quorum": "true"
+            }
+          }
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ams_log_max_backup_size": "80",
+            "ams_log_number_of_backup_files": "60",
+            "content": "\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n# Define some default values that can be overridden by system properties\nams.log.dir=.\nams.log.file=ambari-metrics-collector.log\n\n# Root logger option\nlog4j.rootLogger=INFO,file\n\n# Direct log messages to a log file\nlog4j.appender.file=org.apache.log4j.RollingFileAppender\nlog4j.appender.file.File=${ams.log.dir}/${ams.log.file}\nlog4j.appender.file.MaxFileSize={{ams_log_max_backup_size}}MB\nlog4j.appender.file.MaxBackupIndex={{ams_log_number_of_backup_files}}\nlog4j.appender.file.layout=org.apache.log4j.PatternLayout\nlog4j.appender.file.layout.ConversionPattern=%d{ISO8601} %p %c: %m%n"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "cluster.zookeeper.property.clientPort": "{{cluster_zookeeper_clientPort}}",
+            "cluster.zookeeper.quorum": "{{cluster_zookeeper_quorum_hosts}}",
+            "failover.strategy": "round-robin",
+            "phoenix.query.maxGlobalMemoryPercentage": "25",
+            "phoenix.spool.directory": "/tmp",
+            "timeline.metrics.aggregator.checkpoint.dir": "/var/lib/ambari-metrics-collector/checkpoint",
+            "timeline.metrics.aggregators.skip.blockcache.enabled": "false",
+            "timeline.metrics.cache.commit.interval": "10",
+            "timeline.metrics.cache.enabled": "true",
+            "timeline.metrics.cache.size": "100",
+            "timeline.metrics.cluster.aggregation.sql.filters": "sdisk\\_%,boottime",
+            "timeline.metrics.cluster.aggregator.daily.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.daily.disabled": "false",
+            "timeline.metrics.cluster.aggregator.daily.interval": "86400",
+            "timeline.metrics.cluster.aggregator.daily.ttl": "63072000",
+            "timeline.metrics.cluster.aggregator.hourly.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.hourly.disabled": "false",
+            "timeline.metrics.cluster.aggregator.hourly.interval": "3600",
+            "timeline.metrics.cluster.aggregator.hourly.ttl": "31536000",
+            "timeline.metrics.cluster.aggregator.interpolation.enabled": "true",
+            "timeline.metrics.cluster.aggregator.minute.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.minute.disabled": "false",
+            "timeline.metrics.cluster.aggregator.minute.interval": "300",
+            "timeline.metrics.cluster.aggregator.minute.ttl": "2592000",
+            "timeline.metrics.cluster.aggregator.second.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.cluster.aggregator.second.disabled": "false",
+            "timeline.metrics.cluster.aggregator.second.interval": "120",
+            "timeline.metrics.cluster.aggregator.second.timeslice.interval": "30",
+            "timeline.metrics.cluster.aggregator.second.ttl": "259200",
+            "timeline.metrics.daily.aggregator.minute.interval": "86400",
+            "timeline.metrics.downsampler.event.metric.patterns": "topology\\.%",
+            "timeline.metrics.downsampler.topn.function": "max",
+            "timeline.metrics.downsampler.topn.metric.patterns": "dfs.NNTopUserOpCounts.windowMs=60000.op=__%.user=%,dfs.NNTopUserOpCounts.windowMs=300000.op=__%.user=%,dfs.NNTopUserOpCounts.windowMs=1500000.op=__%.user=%",
+            "timeline.metrics.downsampler.topn.value": "10",
+            "timeline.metrics.hbase.compression.scheme": "SNAPPY",
+            "timeline.metrics.hbase.data.block.encoding": "FAST_DIFF",
+            "timeline.metrics.hbase.init.check.enabled": "true",
+            "timeline.metrics.host.aggregator.daily.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.daily.disabled": "false",
+            "timeline.metrics.host.aggregator.daily.ttl": "31536000",
+            "timeline.metrics.host.aggregator.hourly.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.hourly.disabled": "false",
+            "timeline.metrics.host.aggregator.hourly.interval": "3600",
+            "timeline.metrics.host.aggregator.hourly.ttl": "2592000",
+            "timeline.metrics.host.aggregator.minute.checkpointCutOffMultiplier": "2",
+            "timeline.metrics.host.aggregator.minute.disabled": "false",
+            "timeline.metrics.host.aggregator.minute.interval": "300",
+            "timeline.metrics.host.aggregator.minute.ttl": "604800",
+            "timeline.metrics.host.aggregator.ttl": "86400",
+            "timeline.metrics.host.inmemory.aggregation": "false",
+            "timeline.metrics.host.inmemory.aggregation.http.policy": "HTTP_ONLY",
+            "timeline.metrics.host.inmemory.aggregation.port": "61888",
+            "timeline.metrics.service.checkpointDelay": "60",
+            "timeline.metrics.service.cluster.aggregator.appIds": "datanode,nodemanager,hbase",
+            "timeline.metrics.service.default.result.limit": "5760",
+            "timeline.metrics.service.handler.thread.count": "20",
+            "timeline.metrics.service.http.policy": "HTTP_ONLY",
+            "timeline.metrics.service.metadata.filters": "ContainerResource",
+            "timeline.metrics.service.operation.mode": "embedded",
+            "timeline.metrics.service.resultset.fetchSize": "2000",
+            "timeline.metrics.service.rpc.address": "0.0.0.0:60200",
+            "timeline.metrics.service.use.groupBy.aggregators": "true",
+            "timeline.metrics.service.watcher.delay": "30",
+            "timeline.metrics.service.watcher.disabled": "false",
+            "timeline.metrics.service.watcher.initial.delay": "600",
+            "timeline.metrics.service.watcher.timeout": "30",
+            "timeline.metrics.service.webapp.address": "0.0.0.0:6188",
+            "timeline.metrics.sink.report.interval": "60",
+            "timeline.metrics.transient.metric.patterns": "topology\\.%",
+            "timeline.metrics.whitelisting.enabled": "false"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-ssl-client",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ssl.client.truststore.location": "/etc/security/clientKeys/all.jks",
+            "ssl.client.truststore.password": "SECRET:ams-ssl-client:1:ssl.client.truststore.password",
+            "ssl.client.truststore.type": "jks"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "ams-ssl-server",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "ssl.server.keystore.keypassword": "SECRET:ams-ssl-server:1:ssl.server.keystore.keypassword",
+            "ssl.server.keystore.location": "/etc/security/serverKeys/keystore.jks",
+            "ssl.server.keystore.password": "SECRET:ams-ssl-server:1:ssl.server.keystore.password",
+            "ssl.server.keystore.type": "jks",
+            "ssl.server.truststore.location": "/etc/security/serverKeys/all.jks",
+            "ssl.server.truststore.password": "SECRET:ams-ssl-server:1:ssl.server.truststore.password",
+            "ssl.server.truststore.reload.interval": "10000",
+            "ssl.server.truststore.type": "jks"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586761922252,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": true,
+      "service_config_version": 2,
+      "service_config_version_note": "",
+      "service_name": "AMBARI_METRICS",
+      "stack_id": "HDP-3.0",
+      "user": "admin"
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=ELASTICSEARCH&service_config_version=1",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-env",
+          "tag": "f3d6213c-e403-4251-ad05-44f1dc316f97",
+          "version": 1,
+          "properties": {
+            "content": "\n#!/bin/bash\n\n# Set ELASTICSEARCH specific environment variables here.\n\n# The java implementation to use.\nexport JAVA_HOME={{java64_home}}\nexport PATH=$PATH:$JAVA_HOME/bin",
+            "elastic_group": "users",
+            "elastic_home": "/home/ant/elasticsearch",
+            "elastic_log_dir": "/home/ant/elasticsearch/logs",
+            "elastic_pid_dir": "/var/run/elasticsearch",
+            "elastic_user": "ant",
+            "elastic_user_memlock_hard_limit": "unlimited",
+            "elastic_user_memlock_soft_limit": "unlimited",
+            "elastic_user_nofile_limit": "65536",
+            "elastic_user_nproc_limit": "4096"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-jvm-options",
+          "tag": "4ac7e1f2-ca38-4b13-bb78-b3da2c62cd13",
+          "version": 1,
+          "properties": {
+            "content": "\n## JVM configuration\n\n################################################################\n## IMPORTANT: JVM heap size\n################################################################\n##\n## You should always set the min and max JVM heap\n## size to the same value. For example, to set\n## the heap to 4 GB, set:\n##\n## -Xms4g\n## -Xmx4g\n##\n## See https://www.elastic.co/guide/en/elasticsearch/reference/current/heap-size.html\n## for more information\n##\n################################################################\n\n# Xms represents the initial size of total heap space\n# Xmx represents the maximum size of total heap space\n\n-Xms{{heap_size}}\n-Xmx{{heap_size}}\n\n################################################################\n## Expert settings\n################################################################\n##\n## All settings below this section are considered\n## expert settings. Don't tamper with them unless\n## you understand what you are doing\n##\n################################################################\n\n## GC configuration\n-XX:+UseConcMarkSweepGC\n-XX:CMSInitiatingOccupancyFraction=75\n-XX:+UseCMSInitiatingOccupancyOnly\n\n## optimizations\n\n# pre-touch memory pages used by the JVM during initialization\n-XX:+AlwaysPreTouch\n\n## basic\n\n# force the server VM (remove on 32-bit client JVMs)\n-server\n\n# explicitly set the stack size (reduce to 320k on 32-bit client JVMs)\n-Xss1m\n\n# set to headless, just in case\n-Djava.awt.headless=true\n\n# ensure UTF-8 encoding by default (e.g. filenames)\n-Dfile.encoding=UTF-8\n\n# use our provided JNA always versus the system one\n-Djna.nosys=true\n\n# use old-style file permissions on JDK9\n-Djdk.io.permissionsUseCanonicalPath=true\n\n# flags to configure Netty\n-Dio.netty.noUnsafe=true\n-Dio.netty.noKeySetOptimization=true\n-Dio.netty.recycler.maxCapacityPerThread=0\n\n# log4j 2\n-Dlog4j.shutdownHookEnabled=false\n-Dlog4j2.disable.jmx=true\n-Dlog4j.skipJansi=true\n\n## heap dumps\n\n# generate a heap dump when an allocation from the Java heap fails\n# heap dumps are created in the working directory of the JVM\n-XX:+HeapDumpOnOutOfMemoryError\n\n# specify an alternative path for heap dumps\n# ensure the directory exists and has sufficient space\n#-XX:HeapDumpPath=${heap.dump.path}\n\n## GC logging\n\n#-XX:+PrintGCDetails\n#-XX:+PrintGCTimeStamps\n#-XX:+PrintGCDateStamps\n#-XX:+PrintClassHistogram\n#-XX:+PrintTenuringDistribution\n#-XX:+PrintGCApplicationStoppedTime\n\n# log GC status to a file with time stamps\n# ensure the directory exists\n#-Xloggc:${loggc}\n\n# By default, the GC log file will not rotate.\n# By uncommenting the lines below, the GC log file\n# will be rotated every 128MB at most 32 times.\n#-XX:+UseGCLogFileRotation\n#-XX:NumberOfGCLogFiles=32\n#-XX:GCLogFileSize=128M\n\n# Elasticsearch 5.0.0 will throw an exception on unquoted field names in JSON.\n# If documents were already indexed with unquoted fields in a previous version\n# of Elasticsearch, some operations may throw errors.\n#\n# WARNING: This option will be removed in Elasticsearch 6.0.0 and is provided\n# only for migration purposes.\n#-Delasticsearch.json.allow_unquoted_field_names=true",
+            "heap_size": "512m"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-master",
+          "tag": "218510ec-91dc-4f7a-8d7b-760280fc8d0e",
+          "version": 1,
+          "properties": {
+            "master_home": "/home/ant/elasticsearch",
+            "master_http_port": "9200",
+            "master_network_host": "[ 0.0.0.0 ]",
+            "master_path_data": "\"data\"",
+            "master_transport_tcp_port": "9300"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-site",
+          "tag": "400edcf4-a463-4678-b519-fba4cdd4b5b8",
+          "version": 1,
+          "properties": {
+            "bootstrap_memory_lock": "true",
+            "cluster_name": "elasticsearch",
+            "cluster_routing_allocation_disk_threshold_enabled": "true",
+            "cluster_routing_allocation_disk_watermark_high": "0.99",
+            "cluster_routing_allocation_disk_watermark_low": ".97",
+            "cluster_routing_allocation_node_concurrent_recoveries": "4",
+            "discovery_zen_fd_ping_interval": "15s",
+            "discovery_zen_fd_ping_retries": "5",
+            "discovery_zen_fd_ping_timeout": "60s",
+            "discovery_zen_ping_timeout": "3s",
+            "expected_data_nodes": "0",
+            "gateway_recover_after_data_nodes": "1",
+            "http_cors_enabled": "\"true\"",
+            "http_port": "9200",
+            "index_merge_scheduler_max_thread_count": "5",
+            "index_number_of_replicas": "2",
+            "index_number_of_shards": "4",
+            "index_refresh_interval": "1s",
+            "index_translog_flush_threshold_size": "5g",
+            "indices_cluster_send_refresh_mapping": "false",
+            "indices_fielddata_cache_size": "25%",
+            "indices_memory_index_buffer_size": "10%",
+            "indices_memory_index_store_throttle_type": "none",
+            "masters_also_are_datanodes": "\"true\"",
+            "network_host": "[ 0.0.0.0 ]",
+            "network_publish_host": "[]",
+            "path_data": "\"data\"",
+            "recover_after_time": "15m",
+            "threadpool_bulk_queue_size": "3000",
+            "threadpool_index_queue_size": "1000",
+            "transport_tcp_port": "9300",
+            "zen_discovery_ping_unicast_hosts": "[10.20.2.168,10.20.2.169,10.20.2.170]"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-slave-1",
+          "tag": "c5e6963e-1b2e-468f-82c3-8e1b98d6eb53",
+          "version": 1,
+          "properties": {
+            "salve_1_home": "/home/ant/elasticsearch-datanode",
+            "salve_1_http_port": "9400",
+            "salve_1_network_host": "[ 0.0.0.0 ]",
+            "salve_1_path_data": "\"data\"",
+            "salve_1_transport_tcp_port": "9401"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-slave-2",
+          "tag": "714cf92a-4171-4bb1-84af-b47630a49c20",
+          "version": 1,
+          "properties": {
+            "salve_2_home": "/home/ant/elasticsearch",
+            "salve_2_http_port": "9200",
+            "salve_2_network_host": "[ 0.0.0.0 ]",
+            "salve_2_path_data": "\"data\"",
+            "salve_2_transport_tcp_port": "9300"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-slave-3",
+          "tag": "6855f56c-224f-4da8-9b99-5e9664b0b743",
+          "version": 1,
+          "properties": {
+            "salve_3_home": "/home/ant/elasticsearch",
+            "salve_3_http_port": "9200",
+            "salve_3_network_host": "[ 0.0.0.0 ]",
+            "salve_3_path_data": "\"data\"",
+            "salve_3_transport_tcp_port": "9300"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-slave-4",
+          "tag": "75d972b8-fb7d-4dc2-97ef-2e6eb0b87a7b",
+          "version": 1,
+          "properties": {
+            "salve_4_home": "/home/ant/elasticsearch",
+            "salve_4_http_port": "9200",
+            "salve_4_network_host": "[ 0.0.0.0 ]",
+            "salve_4_path_data": "\"data\"",
+            "salve_4_transport_tcp_port": "9300"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "elastic-sysconfig",
+          "tag": "d6b57908-1fbb-4a94-a201-99b651e9385c",
+          "version": 1,
+          "properties": {
+            "conf_dir": "config",
+            "content": "\n# Directory where the Elasticsearch binary distribution resides\nES_HOME={{elastic_home}}\n\n# Maximum number of open files\nMAX_OPEN_FILES={{max_open_files}}\n\n# Maximum number of VMA (Virtual Memory Areas) a process can own\nMAX_MAP_COUNT={{max_map_count}}\n\n# Elasticsearch log directory\nLOG_DIR={{log_dir}}\n\n# Elasticsearch data directory\nDATA_DIR={{data_dir}}\n\n# Elasticsearch work directory\nWORK_DIR={{work_dir}}\n\n# Elasticsearch conf directory\nES_PATH_CONF={{conf_dir}}\n\n# Elasticsearch pid directory\nPID_DIR={{pid_dir}}\n\n# JAVA_HOME must be provided here for OS that use systemd service launch\nJAVA_HOME={{java64_home}}\n\n# Additional Java options - now preferential to use 'jvm.options' file instead\nES_JAVA_OPTS=\"\"\n\n# https://www.elastic.co/guide/en/elasticsearch/reference/5.6/_memory_lock_check.html\nMAX_LOCKED_MEMORY=unlimited",
+            "data_dir": "/home/ant/elasticsearch",
+            "max_map_count": "262144",
+            "max_open_files": "65536",
+            "slave_home": "/home/ant/elasticsearch-datanode",
+            "work_dir": "/home/ant/elasticsearch"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586761922873,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": true,
+      "service_config_version": 1,
+      "service_config_version_note": "Initial configurations for Elasticsearch",
+      "service_name": "ELASTICSEARCH",
+      "stack_id": "HDP-3.0",
+      "user": "admin"
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=SMARTSENSE&service_config_version=1",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "hst-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "hst-log4j-content": "\n# Copyright (c) 2011-2018, Hortonworks Inc.  All rights reserved.\n# Except as expressly permitted in a written agreement between you\n# or your company and Hortonworks, Inc, any use, reproduction,\n# modification, redistribution, sharing, lending or other exploitation\n# of all or any part of the contents of this file is strictly prohibited.\n\n# Define some default values that can be overridden by system properties\n# Root logger option\nlog4j.rootLogger=INFO,file\n\nlog4j.appender.file=org.apache.log4j.RollingFileAppender\nlog4j.appender.file.File={{hst_log_dir}}/${log.file.name}\nlog4j.appender.file.MaxFileSize={{hst_max_file_size}}MB\nlog4j.appender.file.MaxBackupIndex={{hst_max_backup_index}}\nlog4j.appender.file.layout=org.apache.log4j.PatternLayout\nlog4j.appender.file.layout.ConversionPattern=%d{ISO8601} %5p [%t] %c{1}:%L - %m%n\n\nlog4j.appender.analytics=org.apache.log4j.RollingFileAppender\nlog4j.appender.analytics.File={{hst_log_dir}}/analytics.log\nlog4j.appender.analytics.MaxFileSize={{hst_max_file_size}}MB\nlog4j.appender.analytics.MaxBackupIndex={{hst_max_backup_index}}\nlog4j.appender.analytics.layout=org.apache.log4j.PatternLayout\nlog4j.appender.analytics.layout.ConversionPattern=%m%n\n\n# HST logger\nlog4j.logger.com.hortonworks=INFO\ncom.github.oxo42.stateless4j=WARN\nlog4j.logger.com.sun.jersey=WARN\nlog4j.logger.org.eclipse.jetty.server=INFO\n\n# Analytics logger\nlog4j.logger.analytics=INFO,analytics\nlog4j.additivity.analytics=false",
+            "hst_log_dir": "/var/log/hst",
+            "hst_max_backup_index": "10",
+            "hst_max_file_size": "30"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "activity-log4j-content": "\n# Copyright (c) 2011-2018, Hortonworks Inc.  All rights reserved.\n# Except as expressly permitted in a written agreement between you\n# or your company and Hortonworks, Inc, any use, reproduction,\n# modification, redistribution, sharing, lending or other exploitation\n# of all or any part of the contents of this file is strictly prohibited.\n\n# Define some default values that can be overridden by system properties\n# Root logger option\nlog4j.rootLogger=INFO,file\n\nlog4j.appender.file=org.apache.log4j.RollingFileAppender\nlog4j.appender.file.File={{activity_log_dir}}/${log.file.name}\nlog4j.appender.file.MaxFileSize={{activity_max_file_size}}MB\nlog4j.appender.file.MaxBackupIndex={{activity_max_backup_index}}\nlog4j.appender.file.layout=org.apache.log4j.PatternLayout\nlog4j.appender.file.layout.ConversionPattern=%d{ISO8601} %5p [%t] %c{1}:%L - %m%n",
+            "activity_log_dir": "/var/log/smartsense-activity",
+            "activity_max_backup_index": "10",
+            "activity_max_file_size": "30"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "activity-env-content": "#!/bin/bash\n\n# Copyright (c) 2011-2018, Hortonworks Inc.  All rights reserved.\n# Except as expressly permitted in a written agreement between you\n# or your company and Hortonworks, Inc, any use, reproduction,\n# modification, redistribution, sharing, lending or other exploitation\n# of all or any part of the contents of this file is strictly prohibited.\n\n# Enable verbose shell execution\n#set -xv\n\n## Set HOME for various components\nexport HADOOP_HOME=/usr/hdp/current/hadoop-client\nexport HDFS_HOME=/usr/hdp/current/hadoop-hdfs-client\nexport MAPREDUCE_HOME=/usr/hdp/current/hadoop-mapreduce-client\nexport YARN_HOME=/usr/hdp/current/hadoop-yarn-client\nexport HIVE_HOME=/usr/hdp/current/hive-client\nexport HCAT_HOME=/usr/hdp/current/hive-webhcat\nexport TEZ_HOME=/usr/hdp/current/tez-client\nexport HBASE_HOME=/usr/hdp/current/hbase-client\nexport PHOENIX_HOME=/usr/hdp/current/phoenix-client\nexport ACTIVITY_ANALYZER_HOME=/usr/hdp/share/hst/activity-analyzer\nexport AMS_COLLECTOR_HOME=/usr/lib/ambari-metrics-collector\nexport JAVA_HOME={{java_home}}\n\n## Set conf dir for various components\nexport HADOOP_CONF_DIR=/etc/hadoop/conf/\nexport HIVE_CONF_DIR=/etc/hive/conf/\nexport HBASE_CONF_DIR=/etc/hbase/conf/\nexport TEZ_CONF_DIR=/etc/tez/conf/\nexport ACTIVITY_ANALYZER_CONF_DIR=/etc/smartsense-activity/conf/\nexport AMS_HBASE_CONF=/etc/ams-hbase/conf\n\nexport DEBUG_ENABLED=false\n\n## Set JVM related configs\nexport ANALYZER_JAVA_OPTS=\"{{analyzer_jvm_opts}} -Xmx{{analyzer_jvm_heap}}m\"",
+            "analyzer_jvm_heap": "8192",
+            "analyzer_jvm_opts": "-Xms128m"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-zeppelin-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "activity-zeppelin-env-content": "#!/bin/bash\n\n# Copyright (c) 2011-2018, Hortonworks Inc.  All rights reserved.\n# Except as expressly permitted in a written agreement between you\n# or your company and Hortonworks, Inc, any use, reproduction,\n# modification, redistribution, sharing, lending or other exploitation\n# of all or any part of the contents of this file is strictly prohibited.\n\n\nexport JAVA_HOME={{java_home}}\n# Additional jvm options. for example, export ZEPPELIN_JAVA_OPTS=\"-Dspark.executor.memory=8g -Dspark.cores.max=16\"\nexport ZEPPELIN_JAVA_OPTS=\"-Dhdp.version={{hdp_version}} -Dlog.file.name=activity-explorer.log -DSmartSenseActivityExplorer\"      \t\t\n# export ZEPPELIN_INTP_MEM       \t\t# zeppelin interpreter process jvm mem options. Default = ZEPPELIN_MEM\n# export ZEPPELIN_INTP_JAVA_OPTS \t\t# zeppelin interpreter process jvm options. Default = ZEPPELIN_JAVA_OPTS\n\nexport RUN_AS_USER={{run_as_user}}\nexport ZEPPELIN_MEM=\" -Xms256m -Xmx1024m -XX:MaxPermSize=256m\"\nexport ZEPPELIN_LOG_DIR={{activity_log_dir}}\nexport ZEPPELIN_PID_DIR=/var/run/smartsense-activity-explorer\nexport ZEPPELIN_WAR_TEMPDIR=/var/lib/smartsense/activity-explorer/webapp\nexport ZEPPELIN_NOTEBOOK_DIR=/var/lib/smartsense/activity-explorer/notebook\nexport ZEPPELIN_CLASSPATH=\"/etc/ams-hbase/conf:${ZEPPELIN_CLASSPATH}\"\nexport CLASSPATH=${ZEPPELIN_CLASSPATH}"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-zeppelin-shiro",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "main.credentialMatcher": "org.apache.shiro.authc.credential.PasswordMatcher",
+            "main.iniRealm.credentialsMatcher": "$credentialMatcher",
+            "main.securityManager.sessionManager": "$sessionManager",
+            "main.securityManager.sessionManager.globalSessionTimeout": "86400000",
+            "main.sessionManager": "org.apache.shiro.web.session.mgt.DefaultWebSessionManager",
+            "users.admin": "SECRET:activity-zeppelin-shiro:1:users.admin"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "hst-agent-conf",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "agent.loglevel": "INFO",
+            "agent.tmp_dir": "/var/lib/smartsense/hst-agent/data/tmp",
+            "agent.version": "1.5.1.2.7.4.0-118",
+            "bundle.logs_to_capture": "(.*).log$,(.*).out$,(.*).err$",
+            "security.anonymization.max.heap": "2048",
+            "server.connection_retry_count": "100",
+            "server.connection_retry_interval": "10",
+            "upload.retry_count": "100",
+            "upload.retry_interval": "15"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "hst-server-conf",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "agent.request.processing.timeout": "7200",
+            "agent.request.syncup.interval": "180",
+            "client.threadpool.size.max": "40",
+            "customer.account.name": "unspecified",
+            "customer.enable.flex.subscription": "false",
+            "customer.flex.subscription.id": "",
+            "customer.notification.email": "unspecified",
+            "customer.smartsense.id": "unspecified",
+            "gateway.host": "embedded",
+            "gateway.port": "9451",
+            "gateway.registration.port": "9450",
+            "server.max.heap": "2048",
+            "server.port": "9000",
+            "server.ssl_enabled": "false",
+            "server.storage.dir": "/var/lib/smartsense/hst-server/data",
+            "server.tmp.dir": "/var/lib/smartsense/hst-server/tmp",
+            "server.url": "http://p001020.antfact.com:9000"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-conf",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "activity.explorer.user": "activity_explorer",
+            "global.activity.analyzer.user": "activity_analyzer",
+            "global.activity.processing.parallelism": "8",
+            "global.activity.processor.pool.max.wait.seconds": "60",
+            "hdfs.activity.watcher.enabled": "true",
+            "mr_job.activity.watcher.enabled": "true",
+            "mr_job.max.job.size.mb.for.parallel.execution": "500",
+            "phoenix.sink.batch.size": "5000",
+            "phoenix.sink.flush.interval.seconds": "3600",
+            "tez_job.activity.watcher.enabled": "true",
+            "tez_job.tmp.dir": "/var/lib/smartsense/activity-analyzer/tez/tmp/",
+            "yarn_app.activity.watcher.enabled": "true"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-zeppelin-site",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "zeppelin.anonymous.allowed": "false",
+            "zeppelin.interpreter.connect.timeout": "30000",
+            "zeppelin.interpreter.dir": "/usr/hdp/share/hst/activity-explorer/interpreter",
+            "zeppelin.interpreters": "org.apache.zeppelin.phoenix.PhoenixInterpreter",
+            "zeppelin.notebook.cron.enable": "true",
+            "zeppelin.notebook.dir": "/var/lib/smartsense/activity-explorer/notebook",
+            "zeppelin.notebook.homescreen.hide": "false",
+            "zeppelin.notebook.storage": "org.apache.zeppelin.notebook.repo.VFSNotebookRepo",
+            "zeppelin.server.addr": "0.0.0.0",
+            "zeppelin.server.allowed.origins": "*",
+            "zeppelin.server.context.path": "/",
+            "zeppelin.server.port": "9060",
+            "zeppelin.ssl": "false",
+            "zeppelin.ssl.client.auth": "false",
+            "zeppelin.ssl.key.manager.password": "admin",
+            "zeppelin.ssl.keystore.password": "admin",
+            "zeppelin.ssl.keystore.path": "/var/lib/smartsense/activity-explorer/keystore",
+            "zeppelin.ssl.keystore.type": "JKS",
+            "zeppelin.ssl.truststore.password": "admin",
+            "zeppelin.ssl.truststore.path": "/var/lib/smartsense/activity-explorer/truststore",
+            "zeppelin.ssl.truststore.type": "JKS",
+            "zeppelin.war.tempdir": "/var/lib/smartsense/activity-explorer/webapp",
+            "zeppelin.websocket.max.text.message.size": "1024000"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "activity-zeppelin-interpreter",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "activity-zeppelin-interpreter-content": "{\n  \"interpreterSettings\": {\n    \"jdbc\": {\n      \"id\": \"jdbc\",\n      \"name\": \"jdbc\",\n      \"group\": \"jdbc\",\n      \"properties\": {\n        \"default.url\": {\n          \"name\": \"default.url\",\n          \"value\": \"jdbc:postgresql://localhost:5432/\",\n          \"type\": \"string\"\n        },\n        \"default.driver\": {\n          \"name\": \"default.driver\",\n          \"value\": \"org.postgresql.Driver\",\n          \"type\": \"string\"\n        },\n        \"zeppelin.jdbc.principal\": {\n          \"name\": \"zeppelin.jdbc.principal\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"default.completer.ttlInSeconds\": {\n          \"name\": \"default.completer.ttlInSeconds\",\n          \"value\": \"120\",\n          \"type\": \"number\"\n        },\n        \"default.password\": {\n          \"name\": \"default.password\",\n          \"value\": \"\",\n          \"type\": \"password\"\n        },\n        \"default.completer.schemaFilters\": {\n          \"name\": \"default.completer.schemaFilters\",\n          \"value\": \"\",\n          \"type\": \"textarea\"\n        },\n        \"default.splitQueries\": {\n          \"name\": \"default.splitQueries\",\n          \"value\": false,\n          \"type\": \"checkbox\"\n        },\n        \"default.user\": {\n          \"name\": \"default.user\",\n          \"value\": \"gpadmin\",\n          \"type\": \"string\"\n        },\n        \"zeppelin.jdbc.concurrent.max_connection\": {\n          \"name\": \"zeppelin.jdbc.concurrent.max_connection\",\n          \"value\": \"10\",\n          \"type\": \"number\"\n        },\n        \"common.max_count\": {\n          \"name\": \"common.max_count\",\n          \"value\": \"1000\",\n          \"type\": \"number\"\n        },\n        \"default.precode\": {\n          \"name\": \"default.precode\",\n          \"value\": \"\",\n          \"type\": \"textarea\"\n        },\n        \"zeppelin.jdbc.auth.type\": {\n          \"name\": \"zeppelin.jdbc.auth.type\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"default.statementPrecode\": {\n          \"name\": \"default.statementPrecode\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"zeppelin.jdbc.concurrent.use\": {\n          \"name\": \"zeppelin.jdbc.concurrent.use\",\n          \"value\": true,\n          \"type\": \"checkbox\"\n        },\n        \"zeppelin.jdbc.keytab.location\": {\n          \"name\": \"zeppelin.jdbc.keytab.location\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        }\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.jdbc.JDBCInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false,\n            \"completionSupport\": true\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"owners\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"phoenix\": {\n      \"id\": \"phoenix\",\n      \"name\": \"phoenix\",\n      \"group\": \"jdbc\",\n      \"properties\": {\n        \"default.url\": {\n          \"name\": \"default.url\",\n          \"value\": \"{{activity_explorer_jdbc_url}}\",\n          \"type\": \"string\"\n        },\n        \"default.driver\": {\n          \"name\": \"default.driver\",\n          \"value\": \"org.apache.phoenix.jdbc.PhoenixDriver\",\n          \"type\": \"string\"\n        },\n        \"zeppelin.jdbc.principal\": {\n          \"name\": \"zeppelin.jdbc.principal\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"default.completer.ttlInSeconds\": {\n          \"name\": \"default.completer.ttlInSeconds\",\n          \"value\": \"120\",\n          \"type\": \"number\"\n        },\n        \"default.password\": {\n          \"name\": \"default.password\",\n          \"value\": \"\",\n          \"type\": \"password\"\n        },\n        \"default.completer.schemaFilters\": {\n          \"name\": \"default.completer.schemaFilters\",\n          \"value\": \"\",\n          \"type\": \"textarea\"\n        },\n        \"default.splitQueries\": {\n          \"name\": \"default.splitQueries\",\n          \"value\": false,\n          \"type\": \"checkbox\"\n        },\n        \"default.user\": {\n          \"name\": \"default.user\",\n          \"value\": \"gpadmin\",\n          \"type\": \"string\"\n        },\n        \"zeppelin.jdbc.concurrent.max_connection\": {\n          \"name\": \"zeppelin.jdbc.concurrent.max_connection\",\n          \"value\": \"10\",\n          \"type\": \"number\"\n        },\n        \"common.max_count\": {\n          \"name\": \"common.max_count\",\n          \"value\": \"1000\",\n          \"type\": \"number\"\n        },\n        \"default.precode\": {\n          \"name\": \"default.precode\",\n          \"value\": \"\",\n          \"type\": \"textarea\"\n        },\n        \"zeppelin.jdbc.auth.type\": {\n          \"name\": \"zeppelin.jdbc.auth.type\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"default.statementPrecode\": {\n          \"name\": \"default.statementPrecode\",\n          \"value\": \"\"\n        },\n        \"zeppelin.jdbc.concurrent.use\": {\n          \"name\": \"zeppelin.jdbc.concurrent.use\",\n          \"value\": true,\n          \"type\": \"checkbox\"\n        },\n        \"zeppelin.jdbc.keytab.location\": {\n          \"name\": \"zeppelin.jdbc.keytab.location\",\n          \"value\": \"\",\n          \"type\": \"string\"\n        },\n        \"default.phoenix.query.numberFormat\": {\n          \"name\": \"default.phoenix.query.numberFormat\",\n          \"value\": \"#.#\",\n          \"type\": \"string\"\n        }\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.jdbc.JDBCInterpreter\",\n          \"defaultInterpreter\": true,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false,\n            \"completionSupport\": true\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"owners\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"md\": {\n      \"id\": \"md\",\n      \"name\": \"md\",\n      \"group\": \"md\",\n      \"properties\": {\n        \"markdown.parser.type\": {\n          \"name\": \"markdown.parser.type\",\n          \"value\": \"pegdown\",\n          \"type\": \"string\"\n        }\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"md\",\n          \"class\": \"org.apache.zeppelin.markdown.Markdown\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"markdown\",\n            \"editOnDblClick\": true,\n            \"completionSupport\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"owners\": [],\n        \"isUserImpersonate\": false\n      }\n    }\n  },\n  \"interpreterBindings\": {\n    \"2DGK3YSSY\": [\n      \"phoenix\"\n    ],\n    \"2BQH91X36\": [\n      \"phoenix\"\n    ],\n    \"2BNVQJUBK\": [\n      \"phoenix\"\n    ],\n    \"2BPD7951H\": [\n      \"phoenix\"\n    ],\n    \"2DGNFSF2D\": [\n      \"phoenix\"\n    ],\n    \"2DGCYZ7F3\": [\n      \"phoenix\"\n    ],\n    \"2BTCVPTMH\": [\n      \"phoenix\"\n    ]\n  },\n  \"interpreterRepositories\": [\n    {\n      \"id\": \"central\",\n      \"type\": \"default\",\n      \"url\": \"http://repo1.maven.org/maven2/\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    },\n    {\n      \"id\": \"HDPReleases\",\n      \"type\": \"default\",\n      \"url\": \"http://repo.hortonworks.com/content/groups/public/\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    },\n    {\n      \"id\": \"HDPDev\",\n      \"type\": \"default\",\n      \"url\": \"http://nexus-private.hortonworks.com/nexus/content/groups/public/\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    },\n    {\n      \"id\": \"local\",\n      \"type\": \"default\",\n      \"url\": \"file:///var/lib/smartsense/activity-explorer/.m2/repository\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    }\n  ]\n}"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "anonymization-rules",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "anonymization-rules-content": "{\n  \"rules\":[\n    {\n      \"name\": \"IP Address\",\n      \"description\": \"Anonymize IP addresses like 123.123.12.34 from all non-binary files\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"(?![\\\\-])((?<![a-z0-9\\\\.])[0-9]{1,3}\\\\.[0-9]{1,3}\\\\.[0-9]{1,3}\\\\.[0-9]{1,3}(?!\\\\.[0-9])(?![a-z0-9]))\"],\n      \"exclude_files\": [\"hdp-select*.*\", \"*version.txt\"]\n    },\n    {\n      \"name\": \"Domain Names\",\n      \"rule_id\": \"Domain\"\n    },\n    {\n      \"name\": \"File Names\",\n      \"rule_id\": \"FileName\",\n      \"description\": \"Anonymize file names that have domain names and/or ip addresses\",\n      \"include_files\": [\"*.log*\", \"*.out*\"],\n      \"shared\": true\n    },\n    {\n      \"name\": \"SSN\",\n      \"description\": \"Anonymize social security numbers in format xxx-xx-xxxx from .log and .out files\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"(?<![0-9x])([0-9x]{3}-[0-9x]{2}-[0-9]{4})(?![0-9x])\"],\n      \"include_files\": [\"*.log*\", \"*.out*\"],\n      \"exclude_files\" : [\"hst.log*\", \"hst.out*\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"Credit Card Numbers\",\n      \"description\": \"Anonymize credit card numbers from .log and .out files\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"(?<![0-9x])(18|21|3[04678]|4[0-9x]|5[1-5]|60|65)[0-9x]{2}[- ]([0-9x]{4}[- ]){2}[0-9]{0,4}(?![0-9x])\"],\n      \"extract\": \"(?<![0-9x])([0-9x -]+)(?![0-9x])\",\n      \"include_files\": [\"*.log*\", \"*.out*\"],\n      \"exclude_files\" : [\"hst.log.*\", \"hst.out\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"email\",\n      \"description\": \"Anonymize based on standard email pattern from all files except metadata.json which is used by SmartSense to send bundle notifications\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"(?<![a-z0-9._%+-])[a-z0-9._%+-]+@[a-z0-9.-]+\\\\.[a-z]{2,6}(?![a-z0-9._%+-])$?\"],\n      \"exclude_files\" : [\"metadata.json\"],\n      \"shared\": true\n    },\n    {\n      \"name\": \"Core Site S3 Credentials\",\n      \"description\": \"Anonymize the value of properties from core-site.xml that might contain S3 credentials\",\n      \"rule_id\": \"Property\",\n      \"properties\": [\"fs.s3a.session.token\",\"fs.s3a.proxy.host\",\"fs.s3a.proxy.username\"],\n      \"include_files\": [\"core-site.xml\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"Password Configurations\",\n      \"description\": \"Anonymize various password related properties from configuration files. Properties and configuration files are listed below\",\n      \"rule_id\": \"Property\",\n      \"properties\": [\".*password.*\", \".*awsAccessKeyId.*\",  \".*awsSecretAccessKey.*\", \"fs.azure.account.key.*\", \"ranger.service.https.attrib.keystore.pass\",\"https.attrib.keystorePass\", \"HTTPS_KEYSTORE_PASS\"],\n      \"include_files\": [\"*.xml\", \"*.properties\", \"*.yaml\", \"*.ini\", \"*.json\"],\n      \"exclude_files\" : [\"capacity-scheduler.xml\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"KNOX LDAP Password\",\n      \"description\": \"Anonymize KNOX LDAP passwords from topology configurations xml\",\n      \"rule_id\": \"XPATH\",\n      \"paths\": [\"//name[contains(text(),'Password')]/following-sibling::value[1]/text()\"],\n      \"include_files\": [\"topologies/*.xml\"],\n      \"parentNode\": \"param\",\n      \"shared\": false\n    },\n    {\n      \"name\": \"Ranger KMS Oozie Ganglia Falcon Passwords\",\n      \"description\": \"Anomymize various password related properties for multiple services. Properties are listed below\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"oozie.https.keystore.pass=([^\\\\s]*)\", \"OOZIE_HTTPS_KEYSTORE_PASS=([^\\\\s]*)\", \"ganglia_password=([^\\\\s]*)\", \"javax.jdo.option.ConnectionPassword=([^\\\\s]*)\",\"KMS_SSL_KEYSTORE_PASS=([^\\\\s]*)\",\"falcon.statestore.jdbc.password=([^\\\\s]*)\"],\n      \"extract\": \"=([^\\\\s]*)\",\n      \"include_files\": [\"java_process.txt\", \"pid.txt\", \"ambari-agent.log\", \"oozie-env.cmd\", \"hive_set_v.txt\", \"beeline_set_v.txt\", \"process_list.txt\", \"kms-env.sh\", \"statestore.credentials\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"MAC Addresses\",\n      \"description\": \"Anonymize MAC addresses like ab:12:3c:44:5d:6e from network_info.txt\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"(([0-9a-f]{2}[:-]){5}[0-9a-f]{2})\"],\n      \"extract\": \"([0-9a-f:-]{17})\",\n      \"include_files\": [\"network_info.txt\"],\n      \"shared\": true\n    },\n    {\n      \"name\":\"IPv6 Addresses\",\n      \"description\":\"Anonymize IPv6 addresses like inet6 ab10::g457:6xxx:xxxx:6c9b/64 from network_info.txt\",\n      \"rule_id\": \"Pattern\",\n      \"patterns\": [\"inet6 addr:\\\\s((([\\\\da-f:\\\\/\\\\d]))*)\"],\n      \"extract\": \":\\\\s((([\\\\da-f:\\\\/\\\\d]))*)\",\n      \"include_files\": [\"network_info.txt\"],\n      \"shared\":true\n    },\n    {\n      \"name\": \"Zeppelin Interpreter Passwords\",\n      \"description\": \"Anonymize password related properties from zeppelin interpreter.json\",\n      \"rule_id\": \"JSONPATH\",\n      \"paths\": [\"$.interpreterSettings..properties.['hive.password','phoenix.password','default.password','spark2.password','spark.password','psql.password','hive_interactive.password']\"],\n      \"include_files\": [\"interpreter.json\"],\n      \"shared\": false\n    },\n    {\n      \"name\": \"Zeppelin Interpreter Passwords\",\n      \"description\": \"Anonymize password related properties from zeppelin interpreter.json\",\n      \"rule_id\": \"JSONPATH\",\n      \"paths\": [\"$.interpreterSettings..properties.*[?(@.name=~/.*password.*/i)].value\"],\n      \"include_files\": [\"interpreter.json\"],\n     \"shared\": false\n    }\n  ]\n}"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "product-info",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "product-info-content": "\n{\n    \"schemaVersion\" : \"1.0.0\",\n    \"productId\": \"{{stackName}}\",\n    \"componentId\": \"{{stackName}}\",\n    \"productVersion\" : \"{{stackVersion}}\",\n    \"type\":\"cluster\",\n    \"instanceInfo\": {\n        \"guid\": \"\",\n        \"parentGuid\": \"\",\n        \"name\":\"{{clusterName}}\",\n        \"flexSubscriptionId\": \"{{flexSubscriptionId}}\",\n        \"provider\": \"\",\n        \"region\": \"\"\n     }\n}"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586757784341,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": true,
+      "service_config_version": 1,
+      "service_config_version_note": null,
+      "service_name": "SMARTSENSE",
+      "stack_id": "HDP-3.0",
+      "user": "admin"
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=ZOOKEEPER&service_config_version=1",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zoo.cfg",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "autopurge.purgeInterval": "24",
+            "autopurge.snapRetainCount": "30",
+            "clientPort": "2181",
+            "dataDir": "/hadoop/zookeeper",
+            "initLimit": "10",
+            "quorum.auth.enableSasl": "false",
+            "quorum.cnxn.threads.size": "20",
+            "syncLimit": "5",
+            "tickTime": "3000"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zookeeper-env",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\nexport JAVA_HOME={{java64_home}}\nexport ZOOKEEPER_HOME={{zk_home}}\nexport ZOO_LOG_DIR={{zk_log_dir}}\nexport ZOOPIDFILE={{zk_pid_file}}\nexport SERVER_JVMFLAGS={{zk_server_heapsize}}\nexport JAVA=$JAVA_HOME/bin/java\nexport CLASSPATH=$CLASSPATH:/usr/share/zookeeper/*\n\n{% if security_enabled %}\nexport SERVER_JVMFLAGS=\"$SERVER_JVMFLAGS -Djava.security.auth.login.config={{zk_server_jaas_file}}\"\nexport CLIENT_JVMFLAGS=\"$CLIENT_JVMFLAGS -Djava.security.auth.login.config={{zk_client_jaas_file}} -Dzookeeper.sasl.client.username={{zk_principal_user}}\"\n{% endif %}",
+            "zk_log_dir": "/var/log/zookeeper",
+            "zk_pid_dir": "/var/run/zookeeper",
+            "zk_server_heapsize": "1024",
+            "zk_user": "zookeeper"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zookeeper-log4j",
+          "tag": "INITIAL",
+          "version": 1,
+          "properties": {
+            "content": "\n#\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n# KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n#\n#\n\n#\n# ZooKeeper Logging Configuration\n#\n\n# DEFAULT: console appender only\nlog4j.rootLogger=INFO, CONSOLE, ROLLINGFILE\n\n# Example with rolling log file\n#log4j.rootLogger=DEBUG, CONSOLE, ROLLINGFILE\n\n# Example with rolling log file and tracing\n#log4j.rootLogger=TRACE, CONSOLE, ROLLINGFILE, TRACEFILE\n\n#\n# Log INFO level and above messages to the console\n#\nlog4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender\nlog4j.appender.CONSOLE.Threshold=INFO\nlog4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout\nlog4j.appender.CONSOLE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L] - %m%n\n\n#\n# Add ROLLINGFILE to rootLogger to get log file output\n#    Log DEBUG level and above messages to a log file\nlog4j.appender.ROLLINGFILE=org.apache.log4j.RollingFileAppender\nlog4j.appender.ROLLINGFILE.Threshold=DEBUG\nlog4j.appender.ROLLINGFILE.File={{zk_log_dir}}/zookeeper.log\n\n# Max log file size of 10MB\nlog4j.appender.ROLLINGFILE.MaxFileSize={{zookeeper_log_max_backup_size}}MB\n# uncomment the next line to limit number of backup files\n#log4j.appender.ROLLINGFILE.MaxBackupIndex={{zookeeper_log_number_of_backup_files}}\n\nlog4j.appender.ROLLINGFILE.layout=org.apache.log4j.PatternLayout\nlog4j.appender.ROLLINGFILE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L] - %m%n\n\n\n#\n# Add TRACEFILE to rootLogger to get log file output\n#    Log DEBUG level and above messages to a log file\nlog4j.appender.TRACEFILE=org.apache.log4j.FileAppender\nlog4j.appender.TRACEFILE.Threshold=TRACE\nlog4j.appender.TRACEFILE.File=zookeeper_trace.log\n\nlog4j.appender.TRACEFILE.layout=org.apache.log4j.PatternLayout\n### Notice we are including log4j's NDC here (%x)\nlog4j.appender.TRACEFILE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L][%x] - %m%n",
+            "zookeeper_log_max_backup_size": "10",
+            "zookeeper_log_number_of_backup_files": "10"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586757783830,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": false,
+      "service_config_version": 1,
+      "service_config_version_note": null,
+      "service_name": "ZOOKEEPER",
+      "stack_id": "HDP-3.0",
+      "user": "admin"
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/configurations/service_config_versions?service_name=ZOOKEEPER&service_config_version=2",
+      "cluster_name": "indexer",
+      "configurations": [
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zoo.cfg",
+          "tag": "TOPOLOGY_RESOLVED",
+          "version": 2,
+          "properties": {
+            "autopurge.purgeInterval": "24",
+            "autopurge.snapRetainCount": "30",
+            "clientPort": "2181",
+            "dataDir": "/hadoop/zookeeper",
+            "initLimit": "10",
+            "quorum.auth.enableSasl": "false",
+            "quorum.cnxn.threads.size": "20",
+            "syncLimit": "5",
+            "tickTime": "3000"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zookeeper-env",
+          "tag": "TOPOLOGY_RESOLVED",
+          "version": 2,
+          "properties": {
+            "content": "\nexport JAVA_HOME={{java64_home}}\nexport ZOOKEEPER_HOME={{zk_home}}\nexport ZOO_LOG_DIR={{zk_log_dir}}\nexport ZOOPIDFILE={{zk_pid_file}}\nexport SERVER_JVMFLAGS={{zk_server_heapsize}}\nexport JAVA=$JAVA_HOME/bin/java\nexport CLASSPATH=$CLASSPATH:/usr/share/zookeeper/*\n\n{% if security_enabled %}\nexport SERVER_JVMFLAGS=\"$SERVER_JVMFLAGS -Djava.security.auth.login.config={{zk_server_jaas_file}}\"\nexport CLIENT_JVMFLAGS=\"$CLIENT_JVMFLAGS -Djava.security.auth.login.config={{zk_client_jaas_file}} -Dzookeeper.sasl.client.username={{zk_principal_user}}\"\n{% endif %}",
+            "zk_log_dir": "/var/log/zookeeper",
+            "zk_pid_dir": "/var/run/zookeeper",
+            "zk_server_heapsize": "1024m",
+            "zk_user": "zookeeper"
+          },
+          "properties_attributes": {}
+        },
+        {
+          "Config": {
+            "cluster_name": "indexer",
+            "stack_id": "HDP-3.0"
+          },
+          "type": "zookeeper-log4j",
+          "tag": "TOPOLOGY_RESOLVED",
+          "version": 2,
+          "properties": {
+            "content": "\n#\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n# KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n#\n#\n\n#\n# ZooKeeper Logging Configuration\n#\n\n# DEFAULT: console appender only\nlog4j.rootLogger=INFO, CONSOLE, ROLLINGFILE\n\n# Example with rolling log file\n#log4j.rootLogger=DEBUG, CONSOLE, ROLLINGFILE\n\n# Example with rolling log file and tracing\n#log4j.rootLogger=TRACE, CONSOLE, ROLLINGFILE, TRACEFILE\n\n#\n# Log INFO level and above messages to the console\n#\nlog4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender\nlog4j.appender.CONSOLE.Threshold=INFO\nlog4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout\nlog4j.appender.CONSOLE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L] - %m%n\n\n#\n# Add ROLLINGFILE to rootLogger to get log file output\n#    Log DEBUG level and above messages to a log file\nlog4j.appender.ROLLINGFILE=org.apache.log4j.RollingFileAppender\nlog4j.appender.ROLLINGFILE.Threshold=DEBUG\nlog4j.appender.ROLLINGFILE.File={{zk_log_dir}}/zookeeper.log\n\n# Max log file size of 10MB\nlog4j.appender.ROLLINGFILE.MaxFileSize={{zookeeper_log_max_backup_size}}MB\n# uncomment the next line to limit number of backup files\n#log4j.appender.ROLLINGFILE.MaxBackupIndex={{zookeeper_log_number_of_backup_files}}\n\nlog4j.appender.ROLLINGFILE.layout=org.apache.log4j.PatternLayout\nlog4j.appender.ROLLINGFILE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L] - %m%n\n\n\n#\n# Add TRACEFILE to rootLogger to get log file output\n#    Log DEBUG level and above messages to a log file\nlog4j.appender.TRACEFILE=org.apache.log4j.FileAppender\nlog4j.appender.TRACEFILE.Threshold=TRACE\nlog4j.appender.TRACEFILE.File=zookeeper_trace.log\n\nlog4j.appender.TRACEFILE.layout=org.apache.log4j.PatternLayout\n### Notice we are including log4j's NDC here (%x)\nlog4j.appender.TRACEFILE.layout.ConversionPattern=%d{ISO8601} - %-5p [%t:%C{1}@%L][%x] - %m%n",
+            "zookeeper_log_max_backup_size": "10",
+            "zookeeper_log_number_of_backup_files": "10"
+          },
+          "properties_attributes": {}
+        }
+      ],
+      "createtime": 1586757784842,
+      "group_id": -1,
+      "group_name": "Default",
+      "hosts": [],
+      "is_cluster_compatible": true,
+      "is_current": true,
+      "service_config_version": 2,
+      "service_config_version_note": null,
+      "service_name": "ZOOKEEPER",
+      "stack_id": "HDP-3.0",
+      "user": "internal"
+    }
+  ],
+  "alert_definitions": [
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/1",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 1,
+        "label": "Metrics Monitor Status",
+        "name": "ams_metrics_monitor_process"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/2",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 2,
+        "label": "Metrics Collector Process",
+        "name": "ams_metrics_collector_process"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/3",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 3,
+        "label": "Metrics Collector - HBase Master Process",
+        "name": "ams_metrics_collector_hbase_master_process"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/4",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 4,
+        "label": "Metrics Collector - HBase Master CPU Utilization",
+        "name": "ams_metrics_collector_hbase_master_cpu"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/5",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 5,
+        "label": "Percent Metrics Monitors Available",
+        "name": "metrics_monitor_process_percent"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/6",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 6,
+        "label": "Metrics Collector - Auto-Restart Status",
+        "name": "ams_metrics_collector_autostart"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/7",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 7,
+        "label": "Grafana Web UI",
+        "name": "grafana_webui"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/8",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 8,
+        "label": "SmartSense Server Process",
+        "name": "smartsense_server_process"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/9",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 9,
+        "label": "SmartSense Bundle Capture Failure",
+        "name": "smartsense_bundle_failed_or_timedout"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/10",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 10,
+        "label": "SmartSense Gateway Status",
+        "name": "smartsense_gateway_status"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/11",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 11,
+        "label": "SmartSense Long Running Bundle",
+        "name": "smartsense_long_running_bundle"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/12",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 12,
+        "label": "Percent ZooKeeper Servers Available",
+        "name": "zookeeper_server_process_percent"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/13",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 13,
+        "label": "ZooKeeper Server Process",
+        "name": "zookeeper_server_process"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/14",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 14,
+        "label": "Ulimit for open files",
+        "name": "ambari_agent_ulimit"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/15",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 15,
+        "label": "Ambari Agent Distro/Conf Select Versions",
+        "name": "ambari_agent_version_select"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/16",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 16,
+        "label": "Host Disk Usage",
+        "name": "ambari_agent_disk_usage"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/17",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 17,
+        "label": "Ambari Agent Heartbeat",
+        "name": "ambari_server_agent_heartbeat"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/18",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 18,
+        "label": "Ambari Server Performance",
+        "name": "ambari_server_performance"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/19",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 19,
+        "label": "Component Version",
+        "name": "ambari_server_component_version"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/20",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 20,
+        "label": "Ambari Server Alerts",
+        "name": "ambari_server_stale_alerts"
+      }
+    },
+    {
+      "href": "http://10.20.1.21:8001/api/v1/clusters/indexer/alert_definitions/51",
+      "AlertDefinition": {
+        "cluster_name": "indexer",
+        "id": 51,
+        "label": "Elasticsearch Port",
+        "name": "elasticsearch_port"
+      }
+    }
+  ],
+  "artifacts": []
+}
