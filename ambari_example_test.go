@@ -9,7 +9,7 @@ import (
 )
 
 func ExampleNewDefaultClient() {
-	es, err := ambari.NewClient(ambari.Config{
+	ambari, err := ambari.NewClient(ambari.Config{
 		Address:           "http://10.20.1.21:8001",
 		Username:          "admin",
 		Password:          "admin",
@@ -20,7 +20,7 @@ func ExampleNewDefaultClient() {
 		log.Fatalf("Error creating the client: %s\n", err)
 	}
 
-	res, err := es.Cluster.Health()
+	res, err := ambari.Cluster.Health()
 	if err != nil {
 		log.Fatalf("Error getting the response: %s\n", err)
 	}
@@ -29,7 +29,7 @@ func ExampleNewDefaultClient() {
 	log.Print(res.StatusCode)
 	log.Print(res.String())
 
-	log.Print(es.Transport.(*transport.Client).URLs())
+	log.Print(ambari.Transport.(*transport.Client).URLs())
 }
 
 func TestClusterHealth(t *testing.T) {

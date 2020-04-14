@@ -1,0 +1,35 @@
+{
+  "blueprint.create": {
+    "stability": "stable",
+    "documentation": {
+      "url": "http://www.elastic.co/guide/",
+      "description": "Returns basic information about the cluster."
+    },
+    "url": {
+      "paths": [
+        {
+          "path": "/api/v1/blueprints/{name}",
+          "methods": [
+            "POST"
+          ],
+          "parts": {
+            "name": {
+              "type": "string",
+              "description": "Blueprint name"
+            }
+          }
+        }
+      ]
+    },
+    "params": {
+      "fields": {
+        "type": "string",
+        "description": "Wait until the specified number of nodes is available"
+      }
+    },
+    "body": {
+      "description": "The blueprint information",
+      "required": true
+    }
+  }
+}

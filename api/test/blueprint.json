@@ -1,0 +1,75 @@
+{
+  "configurations": [],
+  "host_groups": [
+    {
+      "components": [
+        {
+          "name": "ES_MASTER"
+        },
+        {
+          "name": "HST_AGENT"
+        },
+        {
+          "name": "METRICS_MONITOR"
+        }
+      ],
+      "configurations": [],
+      "name": "host_group_2",
+      "cardinality": "1"
+    },
+    {
+      "components": [
+        {
+          "name": "ACTIVITY_ANALYZER"
+        },
+        {
+          "name": "ACTIVITY_EXPLORER"
+        },
+        {
+          "name": "HST_AGENT"
+        },
+        {
+          "name": "ZOOKEEPER_SERVER"
+        },
+        {
+          "name": "HST_SERVER"
+        },
+        {
+          "name": "METRICS_MONITOR"
+        },
+        {
+          "name": "ZOOKEEPER_CLIENT"
+        },
+        {
+          "name": "METRICS_COLLECTOR"
+        },
+        {
+          "name": "METRICS_GRAFANA"
+        }
+      ],
+      "configurations": [],
+      "name": "host_group_1",
+      "cardinality": "1"
+    },
+    {
+      "components": [
+        {
+          "name": "ES_SLAVE"
+        },
+        {
+          "name": "HST_AGENT"
+        },
+        {
+          "name": "METRICS_MONITOR"
+        }
+      ],
+      "configurations": [],
+      "name": "host_group_3",
+      "cardinality": "2"
+    }
+  ],
+  "Blueprints": {
+    "stack_name": "HDP",
+    "stack_version": "3.0"
+  }
+}

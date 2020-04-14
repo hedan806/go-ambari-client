@@ -1,0 +1,19 @@
+{
+  "blueprint": "indexer",
+  "config_recommendation_strategy": "NEVER_APPLY",
+  "provision_action": "INSTALL_AND_START",
+  "configurations": [],
+  "host_groups": [
+    {
+      "name": "host_group_0",
+      "hosts": [
+        {
+          "fqdn": "p001168.antfact.com"
+        }
+      ]
+    }
+  ],
+  "Clusters": {
+    "cluster_name": "indexer-daily"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cluster.components": {
+    "stability": "stable",
+    "documentation": {
+      "url": "http://www.elastic.co/guide/",
+      "description": "Returns basic information about the cluster."
+    },
+    "url": {
+      "paths": [
+        {
+          "path": "/api/v1/clusters/{cluster}/components",
+          "methods": [
+            "GET"
+          ],
+          "parts": {
+            "cluster": {
+              "type": "string",
+              "description": "Limit the information returned to a specific index"
+            }
+          }
+        }
+      ]
+    },
+    "params": {
+      "fields": {
+        "type": "string",
+        "description": "Wait until the specified number of nodes is available"
+      },
+      "minimal_response": {
+        "type": "boolean",
+        "description": "Wait until the specified number of nodes is available"
+      }
+    }
+  }
+}

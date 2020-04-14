@@ -125,6 +125,8 @@ func (cmd *Command) processAPIConstructor() (err error) {
 		"Snapshot",
 		"Tasks",
 
+		"Blueprint",
+
 		// XPack APIs
 		//
 		"AsyncSearch",

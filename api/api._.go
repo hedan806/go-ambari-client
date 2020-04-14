@@ -13,6 +13,7 @@ type API struct {
 	Remote      *Remote
 	Snapshot    *Snapshot
 	Tasks       *Tasks
+	Blueprint   *Blueprint
 	AsyncSearch *AsyncSearch
 	CCR         *CCR
 	ILM         *ILM
@@ -36,11 +37,12 @@ type Cat struct {
 
 // Cluster contains the Cluster APIs
 type Cluster struct {
-	Create ClusterCreate
-	Delete ClusterDelete
-	Health ClusterHealth
-	Info   ClusterInfo
-	List   ClusterList
+	Components ClusterComponents
+	Create     ClusterCreate
+	Delete     ClusterDelete
+	Health     ClusterHealth
+	Info       ClusterInfo
+	List       ClusterList
 }
 
 // Indices contains the Indices APIs
@@ -65,6 +67,14 @@ type Snapshot struct {
 
 // Tasks contains the Tasks APIs
 type Tasks struct {
+}
+
+// Blueprint contains the Blueprint APIs
+type Blueprint struct {
+	Create BlueprintCreate
+	Delete BlueprintDelete
+	Detail BlueprintDetail
+	Get    BlueprintGet
 }
 
 // AsyncSearch contains the AsyncSearch APIs
@@ -126,18 +136,25 @@ func New(t Transport) *API {
 		Get: newGetFunc(t),
 		Cat: &Cat{},
 		Cluster: &Cluster{
-			Create: newClusterCreateFunc(t),
-			Delete: newClusterDeleteFunc(t),
-			Health: newClusterHealthFunc(t),
-			Info:   newClusterInfoFunc(t),
-			List:   newClusterListFunc(t),
+			Components: newClusterComponentsFunc(t),
+			Create:     newClusterCreateFunc(t),
+			Delete:     newClusterDeleteFunc(t),
+			Health:     newClusterHealthFunc(t),
+			Info:       newClusterInfoFunc(t),
+			List:       newClusterListFunc(t),
 		},
-		Indices:     &Indices{},
-		Ingest:      &Ingest{},
-		Nodes:       &Nodes{},
-		Remote:      &Remote{},
-		Snapshot:    &Snapshot{},
-		Tasks:       &Tasks{},
+		Indices:  &Indices{},
+		Ingest:   &Ingest{},
+		Nodes:    &Nodes{},
+		Remote:   &Remote{},
+		Snapshot: &Snapshot{},
+		Tasks:    &Tasks{},
+		Blueprint: &Blueprint{
+			Create: newBlueprintCreateFunc(t),
+			Delete: newBlueprintDeleteFunc(t),
+			Detail: newBlueprintDetailFunc(t),
+			Get:    newBlueprintGetFunc(t),
+		},
 		AsyncSearch: &AsyncSearch{},
 		CCR:         &CCR{},
 		ILM:         &ILM{},
